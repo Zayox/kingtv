@@ -22,6 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -33,7 +34,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602874812456</updated>
       <workItem from="1602874814623" duration="2632000" />
-      <workItem from="1602978773193" duration="1506000" />
+      <workItem from="1602978773193" duration="4489000" />
     </task>
     <servers />
   </component>
@@ -45,9 +46,14 @@
       <screen x="0" y="23" width="1440" height="832" />
     </state>
     <state x="546" y="344" key="Github.CreateGistDialog/0.23.1440.832@0.23.1440.832" timestamp="1602876152452" />
-    <state x="438" y="50" width="604" height="735" key="find.popup" timestamp="1603031975927">
-      <screen x="0" y="23" width="1440" height="827" />
+    <state x="241" y="57" key="SettingsEditor" timestamp="1603037254868">
+      <screen x="0" y="23" width="1440" height="830" />
+    </state>
+    <state x="241" y="57" key="SettingsEditor/0.23.1440.830@0.23.1440.830" timestamp="1603037254868" />
+    <state x="438" y="50" width="604" height="737" key="find.popup" timestamp="1603034696404">
+      <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="438" y="50" width="604" height="735" key="find.popup/0.23.1440.827@0.23.1440.827" timestamp="1603031975927" />
+    <state x="438" y="50" width="604" height="737" key="find.popup/0.23.1440.829@0.23.1440.829" timestamp="1603034696404" />
   </component>
 </project>
