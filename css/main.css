@@ -17,13 +17,11 @@ html {
   line-height: 1.4;
 }
 
-.iptvmenu{
-  position:fixed;
+#menuiptv{
+  position: fixed;
   top:0%;
   height:20%;
   width:100%;
-  background-color: red;
-  z-index: 2;
 }
 
 /*
