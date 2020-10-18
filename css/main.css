@@ -98,11 +98,12 @@ html {
 }
 
 #first-sec{
+  visibility: hidden;
   position: absolute;
   color:white;
   font-size:60px;
   font-family:"SF Pro Display";
-  top:110%;
+  top:60%;
   left:43%;
   z-index:5;
 
@@ -169,6 +170,16 @@ html {
   left:34%;
   z-index:6;
 
-
 }
 
+.blockcar{
+
+  position: absolute;
+  top:162.5%;
+  left:13%;
+  height:700px;
+  width:1150px;
+  background-color:white;
+  z-index:7;
+
+}
