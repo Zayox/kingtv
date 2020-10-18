@@ -2,6 +2,7 @@ html {
   background-color: #232121;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 .navbar{
@@ -39,11 +40,11 @@ html {
   width:70px;
 }
 
-.blackblock{
+#blackblock{
   position:absolute;
-  top:60%;
+  top:70%;
   left:30%;
-  height:800px;
+  height:600px;
   width:600px;
   background-color:black;
   z-index:4;
@@ -57,4 +58,52 @@ html {
   z-index:4;
   color:white;
   font-family: "SF Pro Display";
+}
+
+.txt-product{
+  position: absolute;
+  color:white;
+  font-size:60px;
+  font-family:"SF Pro Display";
+  top:68%;
+  left:43%;
+  z-index:5;
+
+}
+
+.txt-product-scroll{
+  position: absolute;
+  color:white;
+  font-size:13px;
+  font-family:"Avenir";
+  font-weight: Roman;
+  text-decoration: none;
+  top:19.4%;
+  left:50.7%;
+  z-index:5;
+
+}
+
+.txt-product-scroll:hover{
+  position: absolute;
+  color:dodgerblue;
+  font-size:13px;
+  font-family:"Avenir";
+  font-weight: Roman;
+  text-decoration: none;
+  top:19.4%;
+  left:50.7%;
+  z-index:5;
+
+}
+
+#first-sec{
+  position: absolute;
+  color:white;
+  font-size:60px;
+  font-family:"SF Pro Display";
+  top:110%;
+  left:43%;
+  z-index:5;
+
 }
