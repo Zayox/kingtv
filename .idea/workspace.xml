@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e69196df-c64a-4d8b-9636-b7be91ca764f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/TOC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/css.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/extend.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/js.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/humans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/menuiptv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/vendor/modernizr-3.11.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tile-wide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +32,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602874812456</updated>
       <workItem from="1602874814623" duration="2632000" />
-      <workItem from="1602978773193" duration="133000" />
+      <workItem from="1602978773193" duration="514000" />
     </task>
     <servers />
   </component>
