@@ -1,3 +1,5 @@
+
+
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
 
 /* main.css 2.1.0 | MIT License | https://github.com/h5bp/main.css#readme */
@@ -27,14 +29,14 @@ html {
 }
 
 
-#menuiptv{
+.menuiptv{
   position: fixed;
   top:0%;
   height:26%;
   width:100%;
 }
 
-#couronne{
+.couronne{
   position: fixed;
   top:2%;
   left:8%;
@@ -51,6 +53,26 @@ html {
   z-index: 4;
   height:75px;
   width:70px;
+}
+
+.blackblock{
+  position:fixed;
+  top:60%;
+  left:30%;
+  height:800px;
+  width:600px;
+  background-color:black;
+  z-index:4;
+}
+
+.titremagique{
+  position:fixed;
+  top:30%;
+  left:20%;
+  font-size:60px;
+  z-index:4;
+  color:white;
+  font-family: "SF Pro Display";
 }
 
 /*
@@ -216,9 +238,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
