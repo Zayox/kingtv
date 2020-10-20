@@ -172,7 +172,7 @@ html {
 
 }
 
-.blockcar{
+.whiteblock{
 
   position: absolute;
   top:162.5%;
@@ -183,3 +183,33 @@ html {
   z-index:7;
 
 }
+
+#second-sec{
+  visibility: hidden;
+  position: absolute;
+  color:white;
+  font-size:60px;
+  font-family:"SF Pro Display";
+  top:150%;
+  left:43%;
+  z-index:5;
+
+}
+
+.txt-livraison{
+  position: absolute;
+  color:white;
+  top:380%;
+  z-index:7;
+}
+
+.car-produit{
+  position: absolute;
+  color:black;
+  font-family: "SF Pro Display";
+  font-size:60px;
+  top:160%;
+  left:30%;
+  z-index:7;
+}
+
