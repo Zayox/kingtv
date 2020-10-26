@@ -215,7 +215,7 @@ html {
   font-size:60px;
   top:160%;
   left:30%;
-  z-index:7;
+  z-index:8;
 }
 
 @keyframes rotacrn {
@@ -241,4 +241,20 @@ html {
   top:390%;
   left:20%;
   z-index:7;
+}
+
+.rocket{
+  position: absolute;
+  top:40%;
+  left:60%;
+  z-index: 2;
+}
+
+.moon{
+  position: absolute;
+  top:220%;
+  
+  transform: rotate(340deg);
+  left:0%;
+  z-index: 2;
 }
