@@ -250,11 +250,29 @@ html {
   z-index: 2;
 }
 
+.rocketanim{
+  position: absolute;
+  height: 60px;
+  width:35px;
+  top:172%;
+  left:75%;
+  animation-name: rocket-animation;
+  animation-duration: 5s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+  z-index: 8;
+}
+
 .moon{
   position: absolute;
   top:220%;
-  
   transform: rotate(340deg);
   left:0%;
   z-index: 2;
+}
+
+@keyframes rocket-animation {
+  0%{position: absolute;transform: rotate(0deg);top:172%;left:75%;}
+  50%{position: absolute;transform: rotate(-90deg);top:177%;left:75%;}
+  100%{position:absolute;transform: rotate(-90deg);top:177%;left:30%;}
 }
