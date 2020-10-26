@@ -29,6 +29,8 @@ html {
   z-index: 4;
   height:31px;
   width:35px;
+  animation-name:rotacrn;
+  animation-duration: 3s;
 }
 
 .logoiptv{
@@ -196,10 +198,13 @@ html {
 
 }
 
-.txt-livraison{
+.txt-copyright{
   position: absolute;
-  color:white;
-  top:380%;
+  color: #7a7575;
+  font-family: "SF Pro Display";
+  font-size:12px;
+  top:384%;
+  left:20%;
   z-index:7;
 }
 
@@ -213,3 +218,27 @@ html {
   z-index:7;
 }
 
+@keyframes rotacrn {
+  0% {position: absolute;}
+  100% {position: absolute;transform: rotate(360deg)}
+
+}
+
+.blocfoot{
+  position: absolute;
+  background-color: #292929;
+  top:380%;
+  width:100%;
+  height:0.2%;
+  z-index:3;
+}
+
+.txt-test{
+  position: absolute;
+  color: #7a7575;
+  font-family: "SF Pro Display";
+  font-size:12px;
+  top:390%;
+  left:20%;
+  z-index:7;
+}
