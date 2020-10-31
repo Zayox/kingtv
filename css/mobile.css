@@ -1,0 +1,99 @@
+@media screen and (max-width: 450px) {
+
+
+  .home {
+    left:28%;
+  }
+
+  .about {
+    left:45%;
+  }
+
+  .tuto{
+    left:68%;
+  }
+
+  .logoiptv{
+    left:42%;
+  }
+
+  .txt-product{
+    left:20%;
+  }
+
+  .txt-product-scroll{
+    left:44.5%;
+  }
+
+  .txt-product-scroll:hover {
+    left:44.5%;
+
+  }
+
+  .titremagique{
+    top:16%;
+    left:10%;
+    font-size: 50px;
+  }
+
+  #blackblock{
+    top:53%;
+    left:5%;
+    height: 500px;
+    width: 340px;
+  }
+
+  .rocket{
+    display: none;
+  }
+
+
+  .moon{
+    display: none;
+  }
+
+  .txt-product{
+    top:46%;
+  }
+
+  .x96img{
+    top:70%;
+    left:18%;
+    height: 250px;
+    width: 260px;
+  }
+
+  .learn-more{
+    top:70%;
+  }
+
+  #first-sec {
+    top: 40%;
+
+  }
+
+  .whiteblock{
+    display:block;
+    height: 500px;
+    width: 340px;
+    left:5%;
+    top:150%;
+  }
+  .car-produit{
+    top:145%;
+    font-size: 40px ;
+    left:8%;
+  }
+
+  #second-sec{
+    top:130%;
+  }
+
+  .txt-copyright {
+
+    left: 13%;
+
+  }
+
+
+}
