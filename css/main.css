@@ -1,278 +1,309 @@
-html {
-  background-color: #191919;
-  font-size: 1em;
-  line-height: 1.4;
-  scroll-behavior: smooth;
-}
+ html {
+    background-color: #191919;
+    font-size: 1em;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+   overflow-x: hidden;
+  }
 
-.navbar{
-  position: absolute;
-  background-color: black;
-  top:0%;
-  width:100%;
-  height:7%;
-  z-index:3;
-}
+  .navbar {
+    position: absolute;
+    background-color: black;
+    top: 0%;
+    width: 100%;
+    height: 7%;
+    z-index: 3;
+  }
 
 
-.menuiptv{
-  position: absolute;
-  top:0%;
-  height:22%;
-  width:100%;
-}
+  .menuiptv {
+    position: absolute;
+    top: 0%;
+    height: 22%;
+    width: 100%;
+  }
 
-.couronne{
-  position: absolute;
-  top:1.3%;
-  left:8%;
-  z-index: 4;
-  height:31px;
-  width:35px;
-  animation-name:rotacrn;
-  animation-duration: 3s;
-}
+  .couronne {
+    position: absolute;
+    top: 1.3%;
+    left: 8%;
+    z-index: 4;
+    height: 31px;
+    width: 35px;
+    animation-name: rotacrn;
+    animation-duration: 3s;
+  }
 
-.logoiptv{
-  position:absolute;
-  left:50%;
-  top:10.5%;
-  z-index: 4;
-  height:75px;
-  width:70px;
-}
+  .logoiptv {
+    position: absolute;
+    left: 50%;
+    top: 10.5%;
+    z-index: 4;
+    height: 75px;
+    width: 70px;
+  }
 
-#blackblock{
-  position:absolute;
-  top:70%;
-  left:30%;
-  height:660px;
-  width:600px;
-  background-color:black;
-  z-index:4;
-}
+  #blackblock {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    height: 660px;
+    width: 600px;
+    background-color: black;
+    z-index: 4;
+  }
 
-.titremagique{
-  position:absolute;
-  top:30%;
-  left:20%;
-  font-size:60px;
-  z-index:4;
-  color:white;
-  font-family: "SF Pro Display";
-}
+  .titremagique {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    font-size: 60px;
+    z-index: 4;
+    color: white;
+    font-family: "SF Pro Display";
+  }
 
-.txt-product{
-  position: absolute;
-  color:white;
-  font-size:60px;
-  font-family:"SF Pro Display";
-  top:68%;
-  left:43%;
-  z-index:5;
+  .txt-product {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: "SF Pro Display";
+    top: 68%;
+    left: 43%;
+    z-index: 5;
 
-}
+  }
 
-.txt-product-scroll{
-  position: absolute;
-  color:white;
-  font-size:13px;
-  font-family:"Avenir";
-  font-weight: Roman;
-  text-decoration: none;
-  top:17%;
-  left:50.7%;
-  z-index:5;
+  .txt-product-scroll {
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    font-family: "Avenir";
+    font-weight: Roman;
+    text-decoration: none;
+    top: 17%;
+    left: 50.7%;
+    z-index: 5;
 
-}
+  }
 
-.txt-product-scroll:hover{
-  position: absolute;
-  color:dodgerblue;
-  font-size:13px;
-  font-family:"Avenir";
-  font-weight: Roman;
-  text-decoration: none;
-  top:17%;
-  left:50.7%;
-  z-index:5;
+  .txt-product-scroll:hover {
+    position: absolute;
+    color: dodgerblue;
+    font-size: 13px;
+    font-family: "Avenir";
+    font-weight: Roman;
+    text-decoration: none;
+    top: 17%;
+    left: 50.7%;
+    z-index: 5;
 
-}
+  }
 
-#first-sec{
-  visibility: hidden;
-  position: absolute;
-  color:white;
-  font-size:60px;
-  font-family:"SF Pro Display";
-  top:60%;
-  left:43%;
-  z-index:5;
+  #first-sec {
+    visibility: hidden;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: "SF Pro Display";
+    top: 60%;
+    left: 43%;
+    z-index: 5;
 
-}
+  }
 
-.home{
-  position: absolute;
-  color:white;
-  font-size:16px;
-  font-family:"Avenir";
-  font-weight: Roman;
-  text-decoration: none;
-  top:2%;
-  left:40%;
-  z-index:5;
+  .home {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: "Avenir";
+    font-weight: Roman;
+    text-decoration: none;
+    top: 2%;
+    left: 40%;
+    z-index: 5;
 
-}
+  }
 
-.about{
-  position: absolute;
-  color:white;
-  font-size:16px;
-  font-family:"Avenir";
-  font-weight: Roman;
-  text-decoration: none;
-  top:2%;
-  left:50%;
-  z-index:5;
+  .about {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: "Avenir";
+    font-weight: Roman;
+    text-decoration: none;
+    top: 2%;
+    left: 50%;
+    z-index: 5;
 
-}
+  }
 
-.tuto{
-  position: absolute;
-  color:white;
-  font-size:16px;
-  font-family:"Avenir";
-  font-weight: Roman;
-  text-decoration: none;
-  top:2%;
-  left:60%;
-  z-index:5;
+  .tuto {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: "Avenir";
+    font-weight: Roman;
+    text-decoration: none;
+    top: 2%;
+    left: 60%;
+    z-index: 5;
 
-}
+  }
 
-.learn-more{
-  position: absolute;
-  color:dodgerblue;
-  font-size:18px;
-  font-family:"SF Pro Display";
-  font-weight: Light Italic;
-  text-decoration: none;
-  top:90%;
-  left:60%;
-  z-index:7;
+  .learn-more {
+    position: absolute;
+    color: dodgerblue;
+    font-size: 18px;
+    font-family: "SF Pro Display";
+    font-weight: Light Italic;
+    text-decoration: none;
+    top: 90%;
+    left: 60%;
+    z-index: 7;
 
-}
+  }
 
-.x96img{
+  .x96img {
 
-  position: absolute;
-  height:500px;
-  width:520px;
-  top:90%;
-  left:34%;
-  z-index:6;
+    position: absolute;
+    height: 500px;
+    width: 520px;
+    top: 90%;
+    left: 34%;
+    z-index: 6;
 
-}
+  }
 
-.whiteblock{
+  .whiteblock {
 
-  position: absolute;
-  top:162.5%;
-  left:13%;
-  height:700px;
-  width:1150px;
-  background-color:white;
-  z-index:7;
+    position: absolute;
+    top: 162.5%;
+    left: 13%;
+    height: 700px;
+    width: 1150px;
+    background-color: white;
+    z-index: 7;
 
-}
+  }
 
-#second-sec{
-  visibility: hidden;
-  position: absolute;
-  color:white;
-  font-size:60px;
-  font-family:"SF Pro Display";
-  top:150%;
-  left:43%;
-  z-index:5;
+  #second-sec {
+    visibility: hidden;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: "SF Pro Display";
+    top: 150%;
+    left: 43%;
+    z-index: 5;
 
-}
+  }
 
-.txt-copyright{
-  position: absolute;
-  color: #7a7575;
-  font-family: "SF Pro Display";
-  font-size:12px;
-  top:384%;
-  left:20%;
-  z-index:7;
-}
+  .txt-copyright {
+    position: absolute;
+    color: #7a7575;
+    font-family: "SF Pro Display";
+    font-size: 12px;
+    top: 384%;
+    left: 20%;
+    z-index: 7;
+  }
 
-.car-produit{
-  position: absolute;
-  color:black;
-  font-family: "SF Pro Display";
-  font-size:60px;
-  top:160%;
-  left:30%;
-  z-index:8;
-}
+  .car-produit {
+    position: absolute;
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 60px;
+    top: 160%;
+    left: 30%;
+    z-index: 8;
+  }
 
-@keyframes rotacrn {
-  0% {position: absolute;}
-  100% {position: absolute;transform: rotate(360deg)}
+  @keyframes rotacrn {
+    0% {
+      position: absolute;
+    }
+    100% {
+      position: absolute;
+      transform: rotate(360deg)
+    }
 
-}
+  }
 
-.blocfoot{
-  position: absolute;
-  background-color: #292929;
-  top:380%;
-  width:100%;
-  height:0.2%;
-  z-index:3;
-}
+  .blocfoot {
+    position: absolute;
+    background-color: #292929;
+    top: 380%;
+    width: 100%;
+    height: 0.2%;
+    z-index: 3;
+  }
 
-.txt-test{
-  position: absolute;
-  color: #7a7575;
-  font-family: "SF Pro Display";
-  font-size:12px;
-  top:390%;
-  left:20%;
-  z-index:7;
-}
+  .txt-test {
+    position: absolute;
+    color: #7a7575;
+    font-family: "SF Pro Display";
+    font-size: 12px;
+    top: 390%;
+    left: 20%;
+    z-index: 7;
+  }
 
-.rocket{
-  position: absolute;
-  top:40%;
-  left:60%;
-  z-index: 2;
-}
+  .rocket {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    z-index: 2;
+  }
 
-.rocketanim{
-  position: absolute;
-  height: 60px;
-  width:35px;
-  top:172%;
-  left:75%;
-  animation-name: rocket-animation;
-  animation-duration: 5s;
-  animation-delay: 10s;
-  animation-fill-mode: forwards;
-  z-index: 8;
-}
+  .rocketanim {
+    position: absolute;
+    height: 60px;
+    width: 35px;
+    top: 172%;
+    left: 75%;
+    animation-name: rocket-animation;
+    animation-duration: 5s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    z-index: 8;
+  }
 
-.moon{
-  position: absolute;
-  top:220%;
-  transform: rotate(340deg);
-  left:0%;
-  z-index: 2;
-}
+  .moon {
+    position: absolute;
+    top: 220%;
+    transform: rotate(340deg);
+    left: 0%;
+    z-index: 2;
+  }
 
-@keyframes rocket-animation {
-  0%{position: absolute;transform: rotate(0deg);top:172%;left:75%;}
-  50%{position: absolute;transform: rotate(-90deg);top:177%;left:75%;}
-  100%{position:absolute;transform: rotate(-90deg);top:177%;left:30%;}
+  @keyframes rocket-animation {
+    0% {
+      position: absolute;
+      transform: rotate(0deg);
+      top: 172%;
+      left: 75%;
+    }
+    50% {
+      position: absolute;
+      transform: rotate(-90deg);
+      top: 177%;
+      left: 75%;
+    }
+    100% {
+      position: absolute;
+      transform: rotate(-90deg);
+      top: 177%;
+      left: 30%;
+    }
+  }
+
+@media screen and (max-width: 450px){
+
+  .navbar {
+    background-color: blue;
+  }
+
+
+
 }
