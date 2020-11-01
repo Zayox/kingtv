@@ -298,6 +298,22 @@
     }
   }
 
+#paypal-button-container,#smart-button-container{
+  position: absolute;
+  top:90%;
+}
 
+ .acheter {
+   position: absolute;
+   color: dodgerblue;
+   font-size: 18px;
+   font-family: "SF Pro Display";
+   font-weight: Light Italic;
+   text-decoration: none;
+   top: 95%;
+   left: 63.2%;
+   z-index: 7;
+
+ }
 
 
