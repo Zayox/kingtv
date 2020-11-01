@@ -11,6 +11,23 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
       <meta name="theme-color" content="#fafafa">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <style>
+      /* Media query for mobile viewport */
+      @media screen and (max-width: 400px) {
+        #paypal-button-container {
+          width: 100%;
+        }
+      }
+
+      /* Media query for desktop viewport */
+      @media screen and (min-width: 400px) {
+        #paypal-button-container {
+          width: 250px;
+        }
+      }
+    </style>
 
   </head>
 
@@ -66,6 +83,46 @@
       <div class="blocfoot"></div>
       <p class="txt-test">.</p>
     </footer>
+
+    <div id="smart-button-container">
+      <div style="text-align: center;">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+    <script src="https://www.paypal.com/sdk/js?client-id=AaRtD0SPnFRa2JnTAO5461GnG96Yc3hWESqolho1Qd68zhjhMYm8bbz2XPJwfy69InygBlO9dzrmUm7-&currency=EUR" data-sdk-integration-source="button-factory"></script>
+    <script>
+      function initPayPalButton() {
+        paypal.Buttons({
+          style: {
+            shape: 'rect',
+            color: 'silver',
+            layout: 'vertical',
+            label: 'buynow',
+
+          },
+
+          createOrder: function(data, actions) {
+            return actions.order.create({
+              purchase_units: [{"description":"BOX IPTV X96 MINI","amount":{"currency_code":"EUR","value":50}}]
+            });
+          },
+
+          onApprove: function(data, actions) {
+            return actions.order.capture().then(function(details) {
+              alert('Votre commande a été effectuée ! ' + details.payer.name.given_name + 'Vous receverez votre commande sous 14 jours ouvrés maximum.');
+            });
+          },
+
+          onError: function(err) {
+            console.log(err);
+          }
+        }).render('#paypal-button-container');
+      }
+      initPayPalButton();
+    </script>
+
+
+
 
 
   </body>
