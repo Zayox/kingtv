@@ -57,10 +57,20 @@
     position: absolute;
     top: 30%;
     left: 20%;
+    animation-name: anim-magique;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
     font-size: 60px;
     z-index: 4;
     color: white;
     font-family: "SF Pro Display";
+  }
+
+  @keyframes anim-magique {
+    0%{visibility: hidden;top:36%;}
+    50%{visibility: hidden;top:36%;}
+    100%{visibility: visible;top:30%;}
+
   }
 
   .txt-product {
@@ -239,7 +249,7 @@
     z-index: 3;
   }
 
-  .txt-test {
+  .bas-page {
     position: absolute;
     color: #7a7575;
     font-family: "SF Pro Display";
@@ -314,6 +324,104 @@
    left: 63.2%;
    z-index: 7;
 
+ }
+
+ .spotify{
+   position: absolute;
+   top:210%;
+   left:73%;
+   height:60px;
+   width:60px;
+   transformation:rotate(0deg);
+   animation-name:anim-spot;
+   animation-duration:5s;
+   animation-fill-mode:forwards;
+   animation-iteration-count: infinite;
+   z-index:8;
+ }
+
+ .netflix{
+   position: absolute;
+   top:190%;
+   left:77%;
+   height:63px;
+   width:86px;
+   animation-name:anim-net;
+   animation-duration:5s;
+   animation-fill-mode:forwards;
+   animation-iteration-count: infinite;
+   z-index:8;
+ }
+
+ .youtube{
+   position: absolute;
+   top:200%;
+   left:77%;
+   height:63px;
+   width:63px;
+   animation-name:anim-ytb;
+   animation-duration:5s;
+   animation-fill-mode:forwards;
+   animation-iteration-count: infinite;
+   z-index:8;
+ }
+
+ .poele{
+   position: absolute;
+   top:197%;
+   left:53%;
+   height:311px;
+   width:520px;
+   animation-name:anim-poele;
+   animation-duration:5s;
+   animation-fill-mode:forwards;
+   animation-iteration-count: infinite;
+   z-index:7;
+ }
+
+ @keyframes anim-poele{
+   0%{transform:rotate(0deg);}
+   50%{transform:rotate(-20deg);}
+   100%{transform:rotate(0deg);}
+
+ }
+
+ @keyframes anim-spot{
+   0%{top:210%;}
+   30%{top:190%;transform:rotate(-90deg)}
+   100%{top:210%;transform:rotate(0deg)}
+ }
+
+ @keyframes anim-net{
+   0%{top:190%;}
+   30%{top:195%;transform:rotate(-45deg)}
+   100%{top:190%;transform:rotate(0deg)}
+ }
+
+ @keyframes anim-ytb{
+   0%{top:200%;}
+   30%{top:195%;transform:rotate(-20deg)}
+   100%{top:200%;transform:rotate(0deg)}
+ }
+
+ .quatrek {
+   position: absolute;
+   color: black;
+   font-family: "SF Pro Display";
+   font-size: 30px;
+   top: 190%;
+   left: 20%;
+   z-index: 8;
+ }
+
+ .vod {
+   position: absolute;
+   color: black;
+   font-family: "SF Pro Display";
+   font-size: 30px;
+   top: 195%;
+   left: 20%;
+   z-index: 8;
  }
 
 
