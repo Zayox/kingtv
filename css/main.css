@@ -43,6 +43,7 @@
     width: 70px;
   }
 
+
   #blackblock {
     position: absolute;
     top: 70%;
@@ -174,16 +175,42 @@
 
   }
 
-  .x96img {
+ .x96img {
 
+   display: none;
+   position: absolute;
+   height: 500px;
+   width: 520px;
+   top: 90%;
+   left: 34%;
+   z-index: 6;
+
+ }
+
+ .commandex96img {
+
+   position: absolute;
+   height: 430px;
+   width: 155px;
+   top: 93%;
+   left: 37%;
+   z-index: 6;
+
+ }
+  .boxx96 {
     position: absolute;
-    height: 500px;
-    width: 520px;
-    top: 90%;
-    left: 34%;
+    height: 280px;
+    width: 280px;
+    top: 112.6%;
+    left: 48%;
     z-index: 6;
 
   }
+
+ .boxx96:hover {
+   transform: rotate(-10deg);
+   transition-duration: 3s;
+ }
 
   .whiteblock {
 

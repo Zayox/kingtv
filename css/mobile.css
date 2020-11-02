@@ -36,6 +36,13 @@
     font-size: 50px;
   }
 
+  @keyframes anim-magique {
+    0%{visibility: hidden;top:36%;}
+    50%{visibility: hidden;top:36%;}
+    100%{visibility: visible;top:16%;}
+
+  }
+
   #blackblock{
     top:53%;
     left:5%;
@@ -57,10 +64,33 @@
   }
 
   .x96img{
+    display: block;
     top:70%;
-    left:18%;
-    height: 250px;
-    width: 260px;
+    left:7%;
+    height: 325px;
+    width: 338px;
+  }
+
+  .commandex96img {
+
+    display: none;
+    position: absolute;
+    height: 430px;
+    width: 155px;
+    top: 93%;
+    left: 37%;
+    z-index: 6;
+
+  }
+  .boxx96 {
+    display: none;
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    top: 112.6%;
+    left: 48%;
+    z-index: 6;
+
   }
 
   .learn-more{
