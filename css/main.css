@@ -382,8 +382,8 @@
 
  .youtube{
    position: absolute;
-   top:200%;
-   left:77%;
+   top:205%;
+   left:79%;
    height:63px;
    width:63px;
    animation-name:anim-ytb;
@@ -395,10 +395,11 @@
 
  .poele{
    position: absolute;
-   top:197%;
+   top:200%;
    left:53%;
-   height:311px;
-   width:520px;
+   height:247px;
+   width:635px;
+   transform: rotate(5deg);
    animation-name:anim-poele;
    animation-duration:5s;
    animation-fill-mode:forwards;
@@ -407,28 +408,28 @@
  }
 
  @keyframes anim-poele{
-   0%{transform:rotate(0deg);}
-   50%{transform:rotate(-20deg);}
-   100%{transform:rotate(0deg);}
+   0%{transform:rotate(5deg);}
+   50%{transform:rotate(-5deg);}
+   100%{transform:rotate(5deg);}
 
  }
 
  @keyframes anim-spot{
-   0%{top:210%;}
+   0%{top:198%;}
    30%{top:190%;transform:rotate(-90deg)}
-   100%{top:210%;transform:rotate(0deg)}
+   100%{top:198%;transform:rotate(0deg)}
  }
 
  @keyframes anim-net{
    0%{top:190%;}
-   30%{top:195%;transform:rotate(-45deg)}
+   30%{top:185%;transform:rotate(-45deg)}
    100%{top:190%;transform:rotate(0deg)}
  }
 
  @keyframes anim-ytb{
-   0%{top:200%;}
-   30%{top:195%;transform:rotate(-20deg)}
-   100%{top:200%;transform:rotate(0deg)}
+   0%{top:205%;}
+   30%{top:195%;transform:rotate(-40deg)}
+   100%{top:205%;transform:rotate(0deg)}
  }
 
  .quatrek {
@@ -446,9 +447,46 @@
    color: black;
    font-family: "SF Pro Display";
    font-size: 30px;
-   top: 195%;
+   top: 198%;
    left: 20%;
    z-index: 8;
+ }
+
+ .chaines {
+   position: absolute;
+   color: black;
+   font-family: "SF Pro Display";
+   font-size: 30px;
+   top: 206%;
+   left: 20%;
+   z-index: 8;
+ }
+
+ .check{
+   position: absolute;
+   top:195.5%;
+   left:34%;
+   z-index: 8;
+   height:33px;
+   width:33px;
+ }
+
+ .check2{
+   position: absolute;
+   top:203%;
+   left:42%;
+   z-index: 8;
+   height:33px;
+   width:33px;
+ }
+
+ .check3{
+   position: absolute;
+   top:211.4%;
+   left:53%;
+   z-index: 8;
+   height:33px;
+   width:33px;
  }
 
 
