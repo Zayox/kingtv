@@ -45,7 +45,7 @@
 
   #blackblock{
     top:53%;
-    left:5%;
+    left:4.5%;
     height: 500px;
     width: 340px;
   }
@@ -104,9 +104,9 @@
 
   .whiteblock{
     display:block;
-    height: 500px;
+    height: 630px;
     width: 340px;
-    left:5%;
+    left:4.5%;
     top:150%;
   }
   .car-produit{
@@ -129,6 +129,92 @@
     top:75%;
     left:72.4%;
   }
+
+  .poele{
+    top:225%;
+    left:8%;
+    height:123.5px;
+    width:317.5px;
+  }
+
+  .quatrek {
+
+    top: 170%;
+    left:6%;
+
+  }
+
+  .vod {
+
+    top: 178%;
+    left:6%;
+
+  }
+
+  .chaines {
+
+    top: 186%;
+    left:6%;
+
+  }
+
+  .check{
+
+    top:176%;
+    left:59%;
+
+  }
+
+  .check2{
+
+    top:184%;
+    left:86%;
+
+  }
+
+  .check3{
+
+    top:198%;
+    left:68%;
+  }
+
+  .spotify{
+    top:220%;
+    left:44%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .netflix{
+    left:54%;
+    height: 42px;
+    width: 57.333px;
+  }
+
+  .youtube{
+    left:56%;
+    height: 42px;
+    width: 42px;
+  }
+
+  @keyframes anim-spot{
+    0%{top:220%;}
+    30%{top:215%;transform:rotate(-90deg)}
+    100%{top:220%;transform:rotate(0deg)}
+  }
+
+  @keyframes anim-net{
+    0%{top:223%;}
+    30%{top:218%;transform:rotate(-45deg)}
+    100%{top:223%;transform:rotate(0deg)}
+  }
+
+  @keyframes anim-ytb{
+    0%{top:215%;}
+    30%{top:210%;transform:rotate(-40deg)}
+    100%{top:215%;transform:rotate(0deg)}
+  }
+
 }
 
 
