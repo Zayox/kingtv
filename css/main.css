@@ -56,7 +56,7 @@
 
   .titremagique {
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 20%;
     animation-name: anim-magique;
     animation-duration: 1.5s;
@@ -70,7 +70,7 @@
   @keyframes anim-magique {
     0%{visibility: hidden;top:36%;}
     50%{visibility: hidden;top:36%;}
-    100%{visibility: visible;top:30%;}
+    100%{visibility: visible;top:25%;}
 
   }
 

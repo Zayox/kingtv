@@ -31,15 +31,15 @@
   }
 
   .titremagique{
-    top:16%;
+    top:20%;
     left:10%;
-    font-size: 50px;
+    font-size: 32px;
   }
 
   @keyframes anim-magique {
     0%{visibility: hidden;top:36%;}
     50%{visibility: hidden;top:36%;}
-    100%{visibility: visible;top:16%;}
+    100%{visibility: visible;top:20%;}
 
   }
 
