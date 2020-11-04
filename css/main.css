@@ -1,16 +1,19 @@
-@font-face {
-  font-family: "SF Pro Display";
-  src: url("../fonts/SF-Pro-Display-Regular.otf");
-  font-style: normal;
-}
 
-@font-face {
-  font-family: "Avenir";
-  src: url("../fonts/Avenir.ttc");
-  font-style: normal;
-}
 
-html {
+
+  @font-face {
+    font-family: "SF Pro Display";
+    src: url("../fonts/SF-Pro-Display-Regular.otf");
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Avenir";
+    src: url("../fonts/Avenir.ttc");
+    font-style: normal;
+  }
+
+  html {
     background-color: #191919;
     font-size: 1em;
     line-height: 1.4;
@@ -81,9 +84,18 @@ html {
   }
 
   @keyframes anim-magique {
-    0%{visibility: hidden;top:36%;}
-    50%{visibility: hidden;top:36%;}
-    100%{visibility: visible;top:25%;}
+    0% {
+      visibility: hidden;
+      top: 36%;
+    }
+    50% {
+      visibility: hidden;
+      top: 36%;
+    }
+    100% {
+      visibility: visible;
+      top: 25%;
+    }
 
   }
 
@@ -188,28 +200,29 @@ html {
 
   }
 
- .x96img {
+  .x96img {
 
-   display: none;
-   position: absolute;
-   height: 500px;
-   width: 520px;
-   top: 90%;
-   left: 34%;
-   z-index: 6;
+    display: none;
+    position: absolute;
+    height: 500px;
+    width: 520px;
+    top: 90%;
+    left: 34%;
+    z-index: 6;
 
- }
+  }
 
- .commandex96img {
+  .commandex96img {
 
-   position: absolute;
-   height: 430px;
-   width: 155px;
-   top: 93%;
-   left: 37%;
-   z-index: 6;
+    position: absolute;
+    height: 430px;
+    width: 155px;
+    top: 93%;
+    left: 37%;
+    z-index: 6;
 
- }
+  }
+
   .boxx96 {
     position: absolute;
     height: 280px;
@@ -220,10 +233,10 @@ html {
 
   }
 
- .boxx96:hover {
-   transform: rotate(-10deg);
-   transition-duration: 3s;
- }
+  .boxx96:hover {
+    transform: rotate(-10deg);
+    transition-duration: 3s;
+  }
 
   .whiteblock {
 
@@ -348,158 +361,188 @@ html {
     }
   }
 
-#paypal-button-container,#smart-button-container{
-  position: absolute;
-  top:90%;
-}
+  #paypal-button-container, #smart-button-container {
+    position: absolute;
+    top: 90%;
+  }
 
- .acheter {
-   position: absolute;
-   color: dodgerblue;
-   font-size: 18px;
-   font-family: "SF Pro Display";
-   font-weight: Light Italic;
-   text-decoration: none;
-   top: 95%;
-   left: 63.2%;
-   z-index: 7;
+  .acheter {
+    position: absolute;
+    color: dodgerblue;
+    font-size: 18px;
+    font-family: "SF Pro Display";
+    font-weight: Light Italic;
+    text-decoration: none;
+    top: 95%;
+    left: 63.2%;
+    z-index: 7;
 
- }
+  }
 
- .spotify{
-   position: absolute;
-   top:210%;
-   left:73%;
-   height:60px;
-   width:60px;
-   transformation:rotate(0deg);
-   animation-name:anim-spot;
-   animation-duration:5s;
-   animation-fill-mode:forwards;
-   animation-iteration-count: infinite;
-   z-index:8;
- }
+  .spotify {
+    position: absolute;
+    top: 210%;
+    left: 73%;
+    height: 60px;
+    width: 60px;
+    transformation: rotate(0deg);
+    animation-name: anim-spot;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    z-index: 8;
+  }
 
- .netflix{
-   position: absolute;
-   top:190%;
-   left:77%;
-   height:63px;
-   width:86px;
-   animation-name:anim-net;
-   animation-duration:5s;
-   animation-fill-mode:forwards;
-   animation-iteration-count: infinite;
-   z-index:8;
- }
+  .netflix {
+    position: absolute;
+    top: 190%;
+    left: 77%;
+    height: 63px;
+    width: 86px;
+    animation-name: anim-net;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    z-index: 8;
+  }
 
- .youtube{
-   position: absolute;
-   top:205%;
-   left:79%;
-   height:63px;
-   width:63px;
-   animation-name:anim-ytb;
-   animation-duration:5s;
-   animation-fill-mode:forwards;
-   animation-iteration-count: infinite;
-   z-index:8;
- }
+  .youtube {
+    position: absolute;
+    top: 205%;
+    left: 79%;
+    height: 63px;
+    width: 63px;
+    animation-name: anim-ytb;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    z-index: 8;
+  }
 
- .poele{
-   position: absolute;
-   top:200%;
-   left:53%;
-   height:247px;
-   width:635px;
-   transform: rotate(5deg);
-   animation-name:anim-poele;
-   animation-duration:5s;
-   animation-fill-mode:forwards;
-   animation-iteration-count: infinite;
-   z-index:7;
- }
+  .poele {
+    position: absolute;
+    top: 200%;
+    left: 53%;
+    height: 247px;
+    width: 635px;
+    transform: rotate(5deg);
+    animation-name: anim-poele;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    z-index: 7;
+  }
 
- @keyframes anim-poele{
-   0%{transform:rotate(5deg);}
-   50%{transform:rotate(-5deg);}
-   100%{transform:rotate(5deg);}
+  @keyframes anim-poele {
+    0% {
+      transform: rotate(5deg);
+    }
+    30% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(5deg);
+    }
 
- }
+  }
 
- @keyframes anim-spot{
-   0%{top:198%;}
-   30%{top:190%;transform:rotate(-90deg)}
-   100%{top:198%;transform:rotate(0deg)}
- }
+  @keyframes anim-spot {
+    0% {
+      top: 198%;
+    }
+    30% {
+      top: 190%;
+      transform: rotate(-90deg)
+    }
+    100% {
+      top: 198%;
+      transform: rotate(0deg)
+    }
+  }
 
- @keyframes anim-net{
-   0%{top:190%;}
-   30%{top:185%;transform:rotate(-45deg)}
-   100%{top:190%;transform:rotate(0deg)}
- }
+  @keyframes anim-net {
+    0% {
+      top: 190%;
+    }
+    30% {
+      top: 185%;
+      transform: rotate(-45deg)
+    }
+    100% {
+      top: 190%;
+      transform: rotate(0deg)
+    }
+  }
 
- @keyframes anim-ytb{
-   0%{top:205%;}
-   30%{top:195%;transform:rotate(-40deg)}
-   100%{top:205%;transform:rotate(0deg)}
- }
+  @keyframes anim-ytb {
+    0% {
+      top: 205%;
+    }
+    30% {
+      top: 195%;
+      transform: rotate(-40deg)
+    }
+    100% {
+      top: 205%;
+      transform: rotate(0deg)
+    }
+  }
 
- .quatrek {
-   position: absolute;
-   color: black;
-   font-family: "SF Pro Display";
-   font-size: 30px;
-   top: 190%;
-   left: 20%;
-   z-index: 8;
- }
+  .quatrek {
+    position: absolute;
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 30px;
+    top: 190%;
+    left: 20%;
+    z-index: 8;
+  }
 
- .vod {
-   position: absolute;
-   color: black;
-   font-family: "SF Pro Display";
-   font-size: 30px;
-   top: 198%;
-   left: 20%;
-   z-index: 8;
- }
+  .vod {
+    position: absolute;
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 30px;
+    top: 198%;
+    left: 20%;
+    z-index: 8;
+  }
 
- .chaines {
-   position: absolute;
-   color: black;
-   font-family: "SF Pro Display";
-   font-size: 30px;
-   top: 206%;
-   left: 20%;
-   z-index: 8;
- }
+  .chaines {
+    position: absolute;
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 30px;
+    top: 206%;
+    left: 20%;
+    z-index: 8;
+  }
 
- .check{
-   position: absolute;
-   top:195.5%;
-   left:34%;
-   z-index: 8;
-   height:33px;
-   width:33px;
- }
+  .check {
+    position: absolute;
+    top: 195.5%;
+    left: 34%;
+    z-index: 8;
+    height: 33px;
+    width: 33px;
+  }
 
- .check2{
-   position: absolute;
-   top:203%;
-   left:42%;
-   z-index: 8;
-   height:33px;
-   width:33px;
- }
+  .check2 {
+    position: absolute;
+    top: 203%;
+    left: 42%;
+    z-index: 8;
+    height: 33px;
+    width: 33px;
+  }
 
- .check3{
-   position: absolute;
-   top:211.4%;
-   left:53%;
-   z-index: 8;
-   height:33px;
-   width:33px;
- }
+  .check3 {
+    position: absolute;
+    top: 211.4%;
+    left: 53%;
+    z-index: 8;
+    height: 33px;
+    width: 33px;
+  }
 
 
