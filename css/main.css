@@ -1,4 +1,10 @@
- html {
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+html {
     background-color: #191919;
     font-size: 1em;
     line-height: 1.4;
@@ -230,7 +236,7 @@
     color: white;
     font-size: 60px;
     font-family: "SF Pro Display";
-    top: 150%;
+    top: 153%;
     left: 43%;
     z-index: 5;
 

@@ -57,7 +57,7 @@
 
       <div class="whiteblock"></div>
       <img class="rocket" src="img/rocket.png" alt="rocket image">
-      <img class="rocketanim" src="img/rocketanim.png" alt="rocketanim image">
+
       <img class="moon" src="img/moon.png" alt="moon image">
       <img class="spotify" src="img/spotify.png" alt="logo spotify">
       <img class="netflix" src="img/netflix.png" alt="logo netflix">
@@ -79,6 +79,21 @@
       <div class="blocfoot"></div>
       <p class="bas-page">.</p>
     </footer>
+
+  <script>
+    myID = document.getElementById("whiteblock");
+
+    var myScrollFunc = function() {
+      var y = window.scrollY;
+      if (y >= 800) {
+        myID.className = "whiteblock show"
+      } else {
+        myID.className = "whiteblock hide"
+      }
+    };
+
+    window.addEventListener("scroll", myScrollFunc);
+  </script>
 
 
   </body>

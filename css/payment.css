@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+
 html {
   background-color: #191919;
   font-size: 1em;
@@ -170,11 +177,31 @@ html {
 
 #paypal-button-container{
   position: absolute;
-  top:45%;
-  left:43%;
-  background-color:white;
+  top:75%;
+  left:55%;
+  background-color:darkgrey;
   background-position-y: 600px;
 
+}
+
+#whiteblockPAY {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  height: 200px;
+  width: 250.2px;
+  background-color: darkgrey;
+  z-index: 4;
+}
+
+.greyblock {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  height: 500px;
+  width: 500px;
+  background-color: #eae3e3;
+  z-index: 4;
 }
 
 
