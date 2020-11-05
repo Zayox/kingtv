@@ -253,9 +253,25 @@
   }
 
   .desc-produit{
-    top:9%;
+    top:11%;
     left:2%;
     font-size: 23px;
+  }
+
+  @keyframes anim-descprod {
+    0% {
+      visibility: hidden;
+      top: 20%;
+    }
+    50% {
+      visibility: hidden;
+      top: 20%;
+    }
+    100% {
+      visibility: visible;
+      top: 11%;
+    }
+
   }
 
   .sous-desc{
@@ -267,6 +283,24 @@
   .txt-stockage{
     top:30%;
     left:2%;
+    animation-name:anim-stockage;
+    animation-duration:1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes anim-stockage {
+    0% {
+      visibility: hidden;
+      top: 40%;
+    }
+    50% {
+      visibility: hidden;
+      top: 40%;
+    }
+    100% {
+      visibility: visible;
+      top: 30%;
+    }
   }
 
   .bloc-stockage{
@@ -312,6 +346,7 @@
   }
 
   .ligne-mid{
+    left:0%;
     width:100%;
   }
 
@@ -323,6 +358,22 @@
   .free-livraison{
     top:95%;
     left:69%;
+  }
+
+  @keyframes anim-freelivraison {
+    0% {
+      visibility: hidden;
+      top: 30%;
+    }
+    50% {
+      visibility: hidden;
+      top: 30%;
+    }
+    100% {
+      visibility: visible;
+      top: 21%;
+    }
+
   }
 
 
@@ -598,20 +649,57 @@
   }
 
   .desc-produit{
-    top:9%;
+    top:11%;
     left:2%;
     font-size: 23px;
   }
 
+  @keyframes anim-descprod {
+    0% {
+      visibility: hidden;
+      top: 20%;
+    }
+    50% {
+      visibility: hidden;
+      top: 20%;
+    }
+    100% {
+      visibility: visible;
+      top: 11%;
+    }
+
+  }
+
   .sous-desc{
-    top:19%;
+    top:21%;
     left:2%;
     font-size: 14px;
   }
 
+
+
   .txt-stockage{
     top:30%;
     left:2%;
+    animation-name:anim-stockage;
+    animation-duration:1.5s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes anim-stockage {
+    0% {
+      visibility: hidden;
+      top: 40%;
+    }
+    50% {
+      visibility: hidden;
+      top: 40%;
+    }
+    100% {
+      visibility: visible;
+      top: 30%;
+    }
+
   }
 
   .bloc-stockage{
@@ -657,6 +745,7 @@
   }
 
   .ligne-mid{
+    left:0%;
     width:100%;
   }
 
@@ -668,6 +757,22 @@
   .free-livraison{
     top:95%;
     left:69%;
+  }
+
+  @keyframes anim-freelivraison {
+    0% {
+      visibility: hidden;
+      top: 30%;
+    }
+    50% {
+      visibility: hidden;
+      top: 30%;
+    }
+    100% {
+      visibility: visible;
+      top: 21%;
+    }
+
   }
 
 
