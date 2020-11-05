@@ -2,222 +2,12 @@
 
 @media screen and (max-width : 375px) {
 
-
-  .home {
-    left:28%;
-  }
-
-  .about {
-    left:45%;
-  }
-
-  .tuto{
-    left:68%;
+  .navbar{
+    height:10%;
   }
 
   .menuiptv{
     display: none;
-  }
-
-  .logoiptv{
-    left:42%;
-  }
-
-  .txt-product{
-    left:20%;
-  }
-
-  .txt-product-scroll{
-    left:44.5%;
-  }
-
-  .txt-product-scroll:hover {
-    left:44.5%;
-
-  }
-
-  .titremagique{
-    top:20%;
-    left:10%;
-    font-size: 32px;
-  }
-
-  @keyframes anim-magique {
-    0%{visibility: hidden;top:36%;}
-    50%{visibility: hidden;top:36%;}
-    100%{visibility: visible;top:20%;}
-
-  }
-
-  #blackblock{
-    top:53%;
-    left:4.5%;
-    height: 500px;
-    width: 340px;
-  }
-
-  .rocket{
-    display: none;
-  }
-
-
-  .moon{
-    display: none;
-  }
-
-  .txt-product{
-    top:46%;
-  }
-
-  .x96img{
-    display: block;
-    top:70%;
-    left:7%;
-    height: 325px;
-    width: 338px;
-  }
-
-  .commandex96img {
-
-    display: none;
-    position: absolute;
-    height: 430px;
-    width: 155px;
-    top: 93%;
-    left: 37%;
-    z-index: 6;
-
-  }
-  .boxx96 {
-    display: none;
-    position: absolute;
-    height: 280px;
-    width: 280px;
-    top: 112.6%;
-    left: 48%;
-    z-index: 6;
-
-  }
-
-  .learn-more{
-    top:70%;
-  }
-
-  #first-sec {
-    top: 40%;
-
-  }
-
-  .whiteblock{
-    display:block;
-    height: 630px;
-    width: 340px;
-    left:4.5%;
-    top:150%;
-  }
-  .car-produit{
-    top:145%;
-    font-size: 40px ;
-    left:8%;
-  }
-
-  #second-sec{
-    top:139.9%;
-  }
-
-  .txt-copyright {
-
-    left: 13%;
-
-  }
-
-  .acheter{
-    top:75%;
-    left:72.4%;
-  }
-
-  .poele{
-    top:220%;
-    left:8%;
-    height:123.5px;
-    width:317.5px;
-  }
-
-  .quatrek {
-
-    top: 170%;
-    left:6%;
-
-  }
-
-  .vod {
-
-    top: 178%;
-    left:6%;
-
-  }
-
-  .chaines {
-
-    top: 186%;
-    left:6%;
-
-  }
-
-  .check{
-
-    top:176%;
-    left:59%;
-
-  }
-
-  .check2{
-
-    top:184%;
-    left:86%;
-
-  }
-
-  .check3{
-
-    top:198%;
-    left:68%;
-  }
-
-  .spotify{
-    left:44%;
-    height: 40px;
-    width: 40px;
-  }
-
-  .netflix{
-    left:54%;
-    height: 42px;
-    width: 57.333px;
-  }
-
-  .youtube{
-    left:56%;
-    height: 42px;
-    width: 42px;
-  }
-
-  @keyframes anim-spot{
-    0%{top:217%;}
-    30%{top:212%;transform:rotate(-90deg)}
-    100%{top:217%;transform:rotate(0deg)}
-  }
-
-  @keyframes anim-net{
-    0%{top:219%;}
-    30%{top:214%;transform:rotate(-45deg)}
-    100%{top:219%;transform:rotate(0deg)}
-  }
-
-  @keyframes anim-ytb{
-    0%{top:212%;}
-    30%{top:207%;transform:rotate(-40deg)}
-    100%{top:212%;transform:rotate(0deg)}
   }
 
   #paypal-button-container{
@@ -336,12 +126,12 @@
 
   .price{
     top:67%;
-    left:50%;
+    left:47%;
   }
 
   .ligne{
     top:72%;
-    left:50%;
+    left:47%;
     width:186px;
   }
 
@@ -371,7 +161,7 @@
     }
     100% {
       visibility: visible;
-      top: 21%;
+      top: 23%;
     }
 
   }
@@ -782,7 +572,7 @@
 /* Iphone X */
 @media screen and (min-height: 812px) and (max-height: 900px){
 
-
+  
   .home {
     left:28%;
   }
@@ -795,94 +585,6 @@
     left:68%;
   }
 
-  .logoiptv{
-    left:42%;
-  }
-
-  .txt-product{
-    left:20%;
-  }
-
-  .txt-product-scroll{
-    left:44.5%;
-  }
-
-  .txt-product-scroll:hover {
-    left:44.5%;
-
-  }
-
-  .titremagique{
-    top:20%;
-    left:10%;
-    font-size: 32px;
-  }
-
-  @keyframes anim-magique {
-    0%{visibility: hidden;top:36%;}
-    50%{visibility: hidden;top:36%;}
-    100%{visibility: visible;top:20%;}
-
-  }
-
-  #blackblock{
-    top:53%;
-    left:4.5%;
-    height: 500px;
-    width: 340px;
-  }
-
-  .rocket{
-    display: none;
-  }
-
-
-  .moon{
-    display: none;
-  }
-
-  .txt-product{
-    top:46%;
-  }
-
-  .x96img{
-    display: block;
-    top:70%;
-    left:7%;
-    height: 325px;
-    width: 338px;
-  }
-
-  .commandex96img {
-
-    display: none;
-    position: absolute;
-    height: 430px;
-    width: 155px;
-    top: 93%;
-    left: 37%;
-    z-index: 6;
-
-  }
-  .boxx96 {
-    display: none;
-    position: absolute;
-    height: 280px;
-    width: 280px;
-    top: 112.6%;
-    left: 48%;
-    z-index: 6;
-
-  }
-
-  .learn-more{
-    top:70%;
-  }
-
-  #first-sec {
-    top: 40%;
-
-  }
 
   .whiteblock{
     display:block;
@@ -891,110 +593,7 @@
     left:4.5%;
     top:150%;
   }
-  .car-produit{
-    top:145%;
-    font-size: 40px ;
-    left:8%;
-  }
 
-  #second-sec{
-    top:139.9%;
-  }
-
-  .txt-copyright {
-
-    left: 13%;
-
-  }
-
-  .acheter{
-    top:75%;
-    left:72.4%;
-  }
-
-  .poele{
-    top:212%;
-    left:8%;
-    height:123.5px;
-    width:317.5px;
-  }
-
-  .quatrek {
-
-    top: 170%;
-    left:6%;
-
-  }
-
-  .vod {
-
-    top: 178%;
-    left:6%;
-
-  }
-
-  .chaines {
-
-    top: 186%;
-    left:6%;
-
-  }
-
-  .check{
-
-    top:174.7%;
-    left:58%;
-
-  }
-
-  .check2{
-
-    top:183%;
-    left:86%;
-
-  }
-
-  .check3{
-
-    top:196%;
-    left:68%;
-  }
-
-  .spotify{
-    left:44%;
-    height: 40px;
-    width: 40px;
-  }
-
-  .netflix{
-    left:54%;
-    height: 42px;
-    width: 57.333px;
-  }
-
-  .youtube{
-    left:56%;
-    height: 42px;
-    width: 42px;
-  }
-
-  @keyframes anim-spot{
-    0%{top:207%;}
-    30%{top:202%;transform:rotate(-90deg)}
-    100%{top:207%;transform:rotate(0deg)}
-  }
-
-  @keyframes anim-net{
-    0%{top:210%;}
-    30%{top:205%;transform:rotate(-45deg)}
-    100%{top:210%;transform:rotate(0deg)}
-  }
-
-  @keyframes anim-ytb{
-    0%{top:204%;}
-    30%{top:199%;transform:rotate(-40deg)}
-    100%{top:204%;transform:rotate(0deg)}
-  }
 
   .imgBOX{
     top:85%;
