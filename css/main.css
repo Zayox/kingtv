@@ -1,6 +1,4 @@
 
-
-
   @font-face {
     font-family: "SF Pro Display";
     src: url("../fonts/SF-Pro-Display-Regular.otf");
@@ -12,6 +10,7 @@
     src: url("../fonts/Avenir.ttc");
     font-style: normal;
   }
+
 
   html {
     background-color: #191919;
@@ -241,8 +240,8 @@
   .whiteblock {
 
     position: absolute;
-    top: 162.5%;
-    left: 13%;
+    top: 100%;
+    left: -40%;
     height: 700px;
     width: 1150px;
     background-color: white;
@@ -277,8 +276,8 @@
     color: black;
     font-family: "SF Pro Display";
     font-size: 60px;
-    top: 160%;
-    left: 30%;
+    top: -3%;
+    left: 23%;
     z-index: 8;
   }
 
@@ -297,7 +296,7 @@
     position: absolute;
     background-color: #292929;
     top: 380%;
-    left:0%;
+    left: 0%;
     width: 100%;
     height: 0.2%;
     z-index: 3;
@@ -382,8 +381,8 @@
 
   .spotify {
     position: absolute;
-    top: 210%;
-    left: 73%;
+    top: 40%;
+    left: 75%;
     height: 60px;
     width: 60px;
     transformation: rotate(0deg);
@@ -396,8 +395,8 @@
 
   .netflix {
     position: absolute;
-    top: 190%;
-    left: 77%;
+    top: 30%;
+    left: 80%;
     height: 63px;
     width: 86px;
     animation-name: anim-net;
@@ -407,10 +406,10 @@
     z-index: 8;
   }
 
-  .youtube {
+  .youtube{
     position: absolute;
-    top: 205%;
-    left: 79%;
+    top: 38%;
+    left: 82%;
     height: 63px;
     width: 63px;
     animation-name: anim-ytb;
@@ -422,8 +421,8 @@
 
   .poele {
     position: absolute;
-    top: 200%;
-    left: 53%;
+    top: 40%;
+    left: 50%;
     height: 247px;
     width: 635px;
     transform: rotate(5deg);
@@ -449,42 +448,42 @@
 
   @keyframes anim-spot {
     0% {
-      top: 198%;
+      top: 40%;
     }
     30% {
-      top: 190%;
+      top: 30%;
       transform: rotate(-90deg)
     }
     100% {
-      top: 198%;
+      top: 40%;
       transform: rotate(0deg)
     }
   }
 
   @keyframes anim-net {
     0% {
-      top: 190%;
+      top: 30%;
     }
     30% {
-      top: 185%;
+      top: 20%;
       transform: rotate(-45deg)
     }
     100% {
-      top: 190%;
+      top: 30%;
       transform: rotate(0deg)
     }
   }
 
   @keyframes anim-ytb {
     0% {
-      top: 205%;
+      top: 43%;
     }
     30% {
-      top: 195%;
+      top: 33%;
       transform: rotate(-40deg)
     }
     100% {
-      top: 205%;
+      top: 43%;
       transform: rotate(0deg)
     }
   }
@@ -494,8 +493,8 @@
     color: black;
     font-family: "SF Pro Display";
     font-size: 30px;
-    top: 190%;
-    left: 20%;
+    top: 18%;
+    left: 10%;
     z-index: 8;
   }
 
@@ -504,8 +503,8 @@
     color: black;
     font-family: "SF Pro Display";
     font-size: 30px;
-    top: 198%;
-    left: 20%;
+    top: 38%;
+    left: 10%;
     z-index: 8;
   }
 
@@ -514,15 +513,17 @@
     color: black;
     font-family: "SF Pro Display";
     font-size: 30px;
-    top: 206%;
-    left: 20%;
+    top: 58%;
+    left: 10%;
     z-index: 8;
   }
 
+
+
   .check {
     position: absolute;
-    top: 195.5%;
-    left: 34%;
+    top: 25%;
+    left: 105%;
     z-index: 8;
     height: 33px;
     width: 33px;
@@ -530,8 +531,8 @@
 
   .check2 {
     position: absolute;
-    top: 203%;
-    left: 42%;
+    top: 25%;
+    left: 105%;
     z-index: 8;
     height: 33px;
     width: 33px;
@@ -539,11 +540,15 @@
 
   .check3 {
     position: absolute;
-    top: 211.4%;
-    left: 53%;
+    top: 25%;
+    left: 105%;
     z-index: 8;
     height: 33px;
     width: 33px;
   }
+
+
+
+
 
 

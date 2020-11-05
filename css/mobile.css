@@ -2,6 +2,13 @@
 
 @media screen and (max-width : 375px) {
 
+  .navbar{
+    height:10%;
+  }
+
+  .menuiptv{
+    height:23%;
+  }
 
   .home {
     left:28%;
@@ -107,14 +114,15 @@
   .whiteblock{
     display:block;
     height: 630px;
-    width: 340px;
+    width: 100%;
     left:0%;
     top:150%;
   }
+
   .car-produit{
-    top:145%;
     font-size: 40px ;
-    left:8%;
+    top:-5%;
+    left:2%;
   }
 
   #second-sec{
@@ -133,7 +141,7 @@
   }
 
   .poele{
-    top:220%;
+    top:80%;
     left:8%;
     height:123.5px;
     width:317.5px;
@@ -141,43 +149,29 @@
 
   .quatrek {
 
-    top: 170%;
-    left:6%;
+    top: 18%;
+    left:0.5%;
 
   }
 
   .vod {
 
-    top: 178%;
-    left:6%;
+    top: 28%;
+    left:0.5%;
 
   }
 
   .chaines {
 
-    top: 186%;
-    left:6%;
+    top: 38%;
+    left:0.5%;
 
   }
 
-  .check{
+  .check3 {
 
-    top:176%;
-    left:59%;
-
-  }
-
-  .check2{
-
-    top:184%;
-    left:86%;
-
-  }
-
-  .check3{
-
-    top:198%;
-    left:68%;
+    top: 60%;
+    left: 68%;
   }
 
   .spotify{
@@ -225,7 +219,7 @@
 
 
 /* Iphone Plus */
-@media screen and (min-width: 411px) and (max-width: 1023px){
+@media screen and (min-width: 411px) and (max-width: 600px){
 
 
   .home {
@@ -332,14 +326,14 @@
   .whiteblock{
     display:block;
     height: 630px;
-    width: 375px;
-    left:4.5%;
+    width: 100%;
+    left:0%;
     top:150%;
   }
   .car-produit{
-    top:145%;
     font-size: 40px ;
-    left:8%;
+    top:-5%;
+    left:2%;
   }
 
   #second-sec{
@@ -358,7 +352,7 @@
   }
 
   .poele{
-    top:210%;
+    top:80%;
     left:8%;
     height:123.5px;
     width:317.5px;
@@ -366,44 +360,26 @@
 
   .quatrek {
 
-    top: 170%;
-    left:6%;
+    top: 18%;
+    left:0.5%;
 
   }
 
   .vod {
 
-    top: 178%;
-    left:6%;
+    top: 28%;
+    left:0.5%;
 
   }
 
   .chaines {
 
-    top: 186%;
-    left:6%;
+    top: 38%;
+    left:0.5%;
 
   }
 
-  .check{
 
-    top:176%;
-    left:53%;
-
-  }
-
-  .check2{
-
-    top:183.5%;
-    left:80%;
-
-  }
-
-  .check3{
-
-    top:197%;
-    left:28%;
-  }
 
   .spotify{
     left:44%;
@@ -439,6 +415,12 @@
     0%{top:202%;}
     30%{top:197%;transform:rotate(-40deg)}
     100%{top:202%;transform:rotate(0deg)}
+  }
+
+  .check3 {
+
+    top: 60%;
+    left: 27%;
   }
 
 
@@ -553,15 +535,11 @@
   .whiteblock{
     display:block;
     height: 630px;
-    width: 340px;
-    left:4.5%;
+    width: 100%;
+    left:0%;
     top:150%;
   }
-  .car-produit{
-    top:145%;
-    font-size: 40px ;
-    left:8%;
-  }
+
 
   #second-sec{
     top:139.9%;
@@ -579,7 +557,7 @@
   }
 
   .poele{
-    top:212%;
+    top:80%;
     left:8%;
     height:123.5px;
     width:317.5px;
@@ -587,43 +565,23 @@
 
   .quatrek {
 
-    top: 170%;
-    left:6%;
+    top: 18%;
+    left:0.5%;
 
   }
 
   .vod {
 
-    top: 178%;
-    left:6%;
+    top: 28%;
+    left:0.5%;
 
   }
 
   .chaines {
 
-    top: 186%;
-    left:6%;
+    top: 38%;
+    left:0.5%;
 
-  }
-
-  .check{
-
-    top:174.7%;
-    left:58%;
-
-  }
-
-  .check2{
-
-    top:183%;
-    left:86%;
-
-  }
-
-  .check3{
-
-    top:196%;
-    left:68%;
   }
 
   .spotify{
@@ -683,6 +641,7 @@
   .greyblock{
     display: none;
   }
+
 
 }
 
