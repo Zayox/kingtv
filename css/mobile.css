@@ -6,6 +6,10 @@
     height:10%;
   }
 
+  #second-sec{
+    top:-12%;
+  }
+
   .menuiptv{
     height:23%;
   }
@@ -72,7 +76,7 @@
 
   .x96img{
     display: block;
-    top:70%;
+    top:75%;
     left:7%;
     height: 325px;
     width: 338px;
