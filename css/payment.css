@@ -191,6 +191,7 @@ html {
   position: absolute;
   top:90%;
   left:50%;
+  width:250px;
   background-color:darkgrey;
   background-position-y: 600px;
 

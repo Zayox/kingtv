@@ -15,6 +15,10 @@
     left:68%;
   }
 
+  .menuiptv{
+    display: none;
+  }
+
   .logoiptv{
     left:42%;
   }
@@ -216,10 +220,112 @@
     100%{top:212%;transform:rotate(0deg)}
   }
 
+  #paypal-button-container{
+    position: absolute;
+    top:125%;
+    left:0%;
+    background-color: #e9e9e9;
+    background-position-y: 600px;
+
+  }
+
+  .imgBOX{
+    top:90%;
+    left:-10%;
+    width:295px;
+    height: 190px;
+  }
+
+  #whiteblockPAY {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 200px;
+    width: 100%;
+    background-color: darkgrey;
+    z-index: 4;
+  }
 
   .greyblock{
-    display: none;
+    display: block;
+    left:0%;
+    width:100%;
   }
+
+  .desc-produit{
+    top:9%;
+    left:2%;
+    font-size: 23px;
+  }
+
+  .sous-desc{
+    top:19%;
+    left:2%;
+    font-size: 14px;
+  }
+
+  .txt-stockage{
+    top:30%;
+    left:2%;
+  }
+
+  .bloc-stockage{
+    top:40%;
+    left:2%;
+    height:60px;
+    width:280px;
+  }
+
+  .GB{
+    top:39%;
+    left:9%;
+  }
+
+  .price-block{
+    top:40.4%;
+    left:50%;
+  }
+
+  .greyblock{
+    top:57%;
+  }
+
+  .dispo{
+    top:58%;
+    left:23%;
+  }
+
+  .EnStock{
+    top:58%;
+    left:59%;
+  }
+
+  .price{
+    top:67%;
+    left:50%;
+  }
+
+  .ligne{
+    top:72%;
+    left:50%;
+    width:186px;
+  }
+
+  .ligne-mid{
+    width:100%;
+  }
+
+  .box{
+    top:96%;
+    left:57.7%;
+  }
+
+  .free-livraison{
+    top:95%;
+    left:69%;
+  }
+
+
 
 }
 
@@ -227,6 +333,9 @@
 /* Iphone Plus */
 @media screen and (min-width: 411px) and (max-width: 1023px){
 
+  .menuiptv{
+    display: none;
+  }
 
   .home {
     left:28%;
@@ -439,6 +548,126 @@
     0%{top:202%;}
     30%{top:197%;transform:rotate(-40deg)}
     100%{top:202%;transform:rotate(0deg)}
+  }
+
+  #whiteblockPAY {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 200px;
+    width: 100%;
+    background-color: darkgrey;
+    z-index: 4;
+  }
+
+  .greyblock{
+    display: none;
+  }
+
+  #paypal-button-container{
+    position: absolute;
+    top:125%;
+    left:0%;
+    width:100%;
+    background-color: #e9e9e9;
+    background-position-y: 600px;
+
+  }
+
+  .imgBOX{
+    top:90%;
+    left:-10%;
+    width:295px;
+    height: 190px;
+  }
+
+  #whiteblockPAY {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    height: 200px;
+    width: 100%;
+    background-color: darkgrey;
+    z-index: 4;
+  }
+
+  .greyblock{
+    display: block;
+    left:0%;
+    width:100%;
+  }
+
+  .desc-produit{
+    top:9%;
+    left:2%;
+    font-size: 23px;
+  }
+
+  .sous-desc{
+    top:19%;
+    left:2%;
+    font-size: 14px;
+  }
+
+  .txt-stockage{
+    top:30%;
+    left:2%;
+  }
+
+  .bloc-stockage{
+    top:40%;
+    left:2%;
+    height:60px;
+    width:280px;
+  }
+
+  .GB{
+    top:39%;
+    left:9%;
+  }
+
+  .price-block{
+    top:40.4%;
+    left:50%;
+  }
+
+  .greyblock{
+    top:57%;
+  }
+
+  .dispo{
+    top:58%;
+    left:23%;
+  }
+
+  .EnStock{
+    top:58%;
+    left:59%;
+  }
+
+  .price{
+    top:67%;
+    left:50%;
+  }
+
+  .ligne{
+    top:72%;
+    left:50%;
+    width:186px;
+  }
+
+  .ligne-mid{
+    width:100%;
+  }
+
+  .box{
+    top:96%;
+    left:57.7%;
+  }
+
+  .free-livraison{
+    top:95%;
+    left:69%;
   }
 
 
@@ -662,38 +891,29 @@
     100%{top:204%;transform:rotate(0deg)}
   }
 
+  .imgBOX{
+    top:85%;
+    left:-10%;
+    width:295px;
+    height: 190px;
+  }
+
+  .free-livraison{
+    top:89%;
+  }
+
+  .box{
+    top:90%;
+  }
+
   #paypal-button-container{
     position: absolute;
-    top:45%;
+    top:115%;
     left:0%;
+    background-color: #e9e9e9;
     background-position-y: 600px;
 
   }
 
-  #whiteblockPAY {
-    position: absolute;
-    top: 40%;
-    left: 0%;
-    height: 200px;
-    width: 100%;
-    background-color: darkgrey;
-    z-index: 4;
-  }
-
-  .greyblock{
-    display: none;
-  }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
