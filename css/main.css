@@ -103,8 +103,8 @@
     color: white;
     font-size: 60px;
     font-family: "SF Pro Display";
-    top: 68%;
-    left: 43%;
+    top: -5%;
+    left: 33%;
     z-index: 5;
 
   }
@@ -141,8 +141,7 @@
     color: white;
     font-size: 60px;
     font-family: "SF Pro Display";
-    top: 60%;
-    left: 43%;
+    top: -10%;
     z-index: 5;
 
   }
@@ -193,8 +192,8 @@
     font-family: "SF Pro Display";
     font-weight: Light Italic;
     text-decoration: none;
-    top: 90%;
-    left: 60%;
+    top: 20%;
+    left: 61%;
     z-index: 7;
 
   }
@@ -216,8 +215,8 @@
     position: absolute;
     height: 430px;
     width: 155px;
-    top: 93%;
-    left: 37%;
+    top: 27%;
+    left: 17%;
     z-index: 6;
 
   }
@@ -226,8 +225,8 @@
     position: absolute;
     height: 280px;
     width: 280px;
-    top: 112.6%;
-    left: 48%;
+    top: 47%;
+    left: 43%;
     z-index: 6;
 
   }
@@ -255,8 +254,7 @@
     color: white;
     font-size: 60px;
     font-family: "SF Pro Display";
-    top: 153%;
-    left: 43%;
+    top: -10%;
     z-index: 5;
 
   }
@@ -373,8 +371,8 @@
     font-family: "SF Pro Display";
     font-weight: Light Italic;
     text-decoration: none;
-    top: 95%;
-    left: 63.2%;
+    top: 25%;
+    left: 68%;
     z-index: 7;
 
   }

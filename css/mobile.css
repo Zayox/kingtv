@@ -27,6 +27,7 @@
   }
 
   .txt-product{
+    top:-12%;
     left:20%;
   }
 
@@ -68,9 +69,6 @@
     display: none;
   }
 
-  .txt-product{
-    top:46%;
-  }
 
   .x96img{
     display: block;
@@ -102,12 +100,9 @@
 
   }
 
-  .learn-more{
-    top:70%;
-  }
 
   #first-sec {
-    top: 40%;
+    top: -20%;
 
   }
 
@@ -125,9 +120,7 @@
     left:2%;
   }
 
-  #second-sec{
-    top:139.9%;
-  }
+
 
   .txt-copyright {
 
@@ -136,8 +129,7 @@
   }
 
   .acheter{
-    top:75%;
-    left:72.4%;
+    left:72.5%;
   }
 
   .poele{
@@ -175,39 +167,39 @@
   }
 
   .spotify{
-    left:44%;
+    left:50%;
     height: 40px;
     width: 40px;
   }
 
   .netflix{
-    left:54%;
+    left:52%;
     height: 42px;
     width: 57.333px;
   }
 
   .youtube{
-    left:56%;
+    left:65%;
     height: 42px;
     width: 42px;
   }
 
   @keyframes anim-spot{
-    0%{top:217%;}
-    30%{top:212%;transform:rotate(-90deg)}
-    100%{top:217%;transform:rotate(0deg)}
+    0%{top:78%;}
+    30%{top:73%;transform:rotate(-90deg)}
+    100%{top:78%;transform:rotate(0deg)}
   }
 
   @keyframes anim-net{
-    0%{top:219%;}
-    30%{top:214%;transform:rotate(-45deg)}
-    100%{top:219%;transform:rotate(0deg)}
+    0%{top:68%;}
+    30%{top:63%;transform:rotate(-45deg)}
+    100%{top:68%;transform:rotate(0deg)}
   }
 
   @keyframes anim-ytb{
-    0%{top:212%;}
-    30%{top:207%;transform:rotate(-40deg)}
-    100%{top:212%;transform:rotate(0deg)}
+    0%{top:75%;}
+    30%{top:70%;transform:rotate(-40deg)}
+    100%{top:75%;transform:rotate(0deg)}
   }
 
 
@@ -239,6 +231,7 @@
   }
 
   .txt-product{
+    top:-12%;
     left:20%;
   }
 
@@ -280,9 +273,7 @@
     display: none;
   }
 
-  .txt-product{
-    top:46%;
-  }
+
 
   .x96img{
     display: block;
@@ -314,12 +305,13 @@
 
   }
 
-  .learn-more{
-    top:70%;
+  .acheter{
+    left:72.5%;
   }
 
+
   #first-sec {
-    top: 40%;
+    top: -20%;
 
   }
 
@@ -337,18 +329,13 @@
   }
 
   #second-sec{
-    top:139.9%;
+    top:-20%;
   }
 
   .txt-copyright {
 
     left: 13%;
 
-  }
-
-  .acheter{
-    top:75%;
-    left:72.4%;
   }
 
   .poele{
@@ -382,40 +369,41 @@
 
 
   .spotify{
-    left:44%;
+    left:50%;
     height: 40px;
     width: 40px;
   }
 
   .netflix{
-    left:54%;
+    left:52%;
     height: 42px;
     width: 57.333px;
   }
 
   .youtube{
-    left:56%;
+    left:65%;
     height: 42px;
     width: 42px;
   }
 
   @keyframes anim-spot{
-    0%{top:207%;}
-    30%{top:202%;transform:rotate(-90deg)}
-    100%{top:207%;transform:rotate(0deg)}
+    0%{top:78%;}
+    30%{top:73%;transform:rotate(-90deg)}
+    100%{top:78%;transform:rotate(0deg)}
   }
 
   @keyframes anim-net{
-    0%{top:209%;}
-    30%{top:204%;transform:rotate(-45deg)}
-    100%{top:209%;transform:rotate(0deg)}
+    0%{top:68%;}
+    30%{top:63%;transform:rotate(-45deg)}
+    100%{top:68%;transform:rotate(0deg)}
   }
 
   @keyframes anim-ytb{
-    0%{top:202%;}
-    30%{top:197%;transform:rotate(-40deg)}
-    100%{top:202%;transform:rotate(0deg)}
+    0%{top:75%;}
+    30%{top:70%;transform:rotate(-40deg)}
+    100%{top:75%;transform:rotate(0deg)}
   }
+
 
   .check3 {
 
@@ -447,9 +435,6 @@
     left:42%;
   }
 
-  .txt-product{
-    left:20%;
-  }
 
   .txt-product-scroll{
     left:44.5%;
@@ -489,9 +474,6 @@
     display: none;
   }
 
-  .txt-product{
-    top:46%;
-  }
 
   .x96img{
     display: block;
@@ -523,12 +505,9 @@
 
   }
 
-  .learn-more{
-    top:70%;
-  }
 
   #first-sec {
-    top: 40%;
+    top: -20%;
 
   }
 
@@ -542,7 +521,7 @@
 
 
   #second-sec{
-    top:139.9%;
+    top:-20%;
   }
 
   .txt-copyright {
@@ -551,10 +530,6 @@
 
   }
 
-  .acheter{
-    top:75%;
-    left:72.4%;
-  }
 
   .poele{
     top:80%;
@@ -585,39 +560,39 @@
   }
 
   .spotify{
-    left:44%;
+    left:50%;
     height: 40px;
     width: 40px;
   }
 
   .netflix{
-    left:54%;
+    left:52%;
     height: 42px;
     width: 57.333px;
   }
 
   .youtube{
-    left:56%;
+    left:65%;
     height: 42px;
     width: 42px;
   }
 
   @keyframes anim-spot{
-    0%{top:207%;}
-    30%{top:202%;transform:rotate(-90deg)}
-    100%{top:207%;transform:rotate(0deg)}
+    0%{top:78%;}
+    30%{top:73%;transform:rotate(-90deg)}
+    100%{top:78%;transform:rotate(0deg)}
   }
 
   @keyframes anim-net{
-    0%{top:210%;}
-    30%{top:205%;transform:rotate(-45deg)}
-    100%{top:210%;transform:rotate(0deg)}
+    0%{top:68%;}
+    30%{top:63%;transform:rotate(-45deg)}
+    100%{top:68%;transform:rotate(0deg)}
   }
 
   @keyframes anim-ytb{
-    0%{top:204%;}
-    30%{top:199%;transform:rotate(-40deg)}
-    100%{top:204%;transform:rotate(0deg)}
+    0%{top:75%;}
+    30%{top:70%;transform:rotate(-40deg)}
+    100%{top:75%;transform:rotate(0deg)}
   }
 
   #paypal-button-container{
