@@ -1,7 +1,19 @@
 @font-face {
-  font-family: "San Francisco";
-  font-weight: 400;
-  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+  font-family: "SF Pro Display";
+  src: url("../fonts/SF-Pro-Display-Regular.otf");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("../fonts/Avenir.ttc");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/roboto/Roboto-Regular.ttf");
+  font-style: normal;
 }
 
 
@@ -168,17 +180,17 @@ html {
 
 .moon {
   position: absolute;
-  top: 220%;
+  top: 270%;
+  left:-20%;
   transform: rotate(340deg);
-  left: 0%;
   z-index: 2;
 }
 
 
 #paypal-button-container{
   position: absolute;
-  top:75%;
-  left:55%;
+  top:90%;
+  left:50%;
   background-color:darkgrey;
   background-position-y: 600px;
 
@@ -186,7 +198,7 @@ html {
 
 #whiteblockPAY {
   position: absolute;
-  top: 70%;
+  top: 90%;
   left: 55%;
   height: 200px;
   width: 250.2px;
@@ -196,12 +208,151 @@ html {
 
 .greyblock {
   position: absolute;
-  top: 70%;
-  left: 55%;
-  height: 500px;
+  top: 75%;
+  left: 50%;
+  height: 700px;
   width: 500px;
-  background-color: #eae3e3;
+  background-color: #e9e9e9;
   z-index: 4;
+}
+
+.ligne {
+  position: absolute;
+  top: 90.5%;
+  left: 68.5%;
+  height: 1.5px;
+  width: 220px;
+  background-color: darkgrey;
+  z-index: 5;
+}
+
+.ligne-mid {
+  position: absolute;
+  top: 250%;
+  height: 1.5px;
+  width: 100%;
+  background-color: darkgrey;
+  z-index: 5;
+}
+
+.price {
+  position: absolute;
+  top: 85%;
+  left: 70%;
+  font-family: "Avenir";
+  font-size:60px;
+  z-index: 5;
+}
+
+.desc-produit {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  color: #e9e9e9;
+  font-family: "Avenir";
+  font-size:40px;
+  z-index: 5;
+}
+
+
+.sous-desc {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  color: darkgrey;
+  font-family: "Avenir";
+  font-size:20px;
+  z-index: 5;
+}
+
+.txt-stockage {
+  position: absolute;
+  top: 51%;
+  left: 50%;
+  color: whitesmoke;
+  font-family: "Avenir";
+  font-size:20px;
+  z-index: 5;
+}
+
+.GB {
+  position: absolute;
+  top: 60.6%;
+  left: 52%;
+  color: whitesmoke;
+  font-family: "Avenir";
+  font-size:23px;
+  z-index: 6;
+}
+
+.bloc-stockage{
+  position: absolute;
+  top:60%;
+  left:50%;
+  height:80px;
+  width:300px;
+  background-color: #191919;
+  border-style: solid;
+  border-color: dodgerblue;
+  border-radius: 5px;
+  z-index:6;
+}
+
+.price-block {
+  position: absolute;
+  top: 61.7%;
+  left: 63%;
+  color: darkgrey;
+  font-family: "Avenir";
+  font-size:18px;
+  z-index: 6;
+}
+
+.imgBOX{
+  position: absolute;
+  top:30%;
+  left:0%;
+  width:750px;
+  height: 477px;
+  z-index:6;
+}
+
+.box{
+  position: absolute;
+  top:110%;
+  left:72%;
+  height:40px;
+  width:40px;
+  z-index: 7;
+
+}
+
+.free-livraison{
+  position: absolute;
+  font-family: Avenir;
+  font-size: 15px;
+  top:109%;
+  left:75.5%;
+  z-index: 7;
+}
+
+.dispo{
+  position: absolute;
+  font-family: Avenir;
+  font-size: 20px;
+  top:77%;
+  left:60%;
+  z-index: 7;
+}
+
+.EnStock{
+  position: absolute;
+  font-family: Avenir;
+  font-size: 20px;
+  color: forestgreen;
+  top:77%;
+  left:69%;
+  z-index: 7;
 }
 
 
