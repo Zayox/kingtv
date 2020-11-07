@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Roi IPTV</title>
+
+  <link rel="stylesheet" href="css/payment.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/mobilePAY.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#fafafa">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <style>
+    /* Media query for mobile viewport */
+    @media screen and (max-width: 400px) {
+      #paypal-button-container {
+        width: 100%;
+      }
+    }
+
+    /* Media query for desktop viewport */
+
+  </style>
+
+</head>
+
+<body>
+
+<header>
+  <div class="navbar"></div>
+  <img class="couronne" src="img/couronne.png" alt="logo couronne"/>
+  <img class="menuiptv" src="img/menuiptv.jpg" alt="menu iptv"/>
+
+
+  <a class="home" href="index.html">Home</a>
+  <a class="tuto" href="">Tutorials</a>
+  <a class="about" href="">About us</a>
+
+
+
+</header>
+
+<main>
+
+
+  <div class="whiteblock"></div>
+  <img class="rocket" src="img/rocket.png" alt="rocket image">
+  <img class="moon" src="img/moon.png" alt="moon image">
+
+
+</main>
+
+
+<div id="paypal-button-container"></div>
+<div id="smart-button-container"></div>
+  <div style="text-align: center;"></div>
+
+
+
+
+
+<script src="https://www.paypal.com/sdk/js?client-id=AaRtD0SPnFRa2JnTAO5461GnG96Yc3hWESqolho1Qd68zhjhMYm8bbz2XPJwfy69InygBlO9dzrmUm7-&currency=EUR" data-sdk-integration-source="button-factory"></script>
+<script>
+  function initPayPalButton() {
+    paypal.Buttons({
+      style: {
+        shape: 'rect',
+        color: 'silver',
+        layout: 'vertical',
+        label: 'buynow',
+
+      },
+
+      createOrder: function(data, actions) {
+        return actions.order.create({
+          purchase_units: [{"description":"BOX IPTV X96 MINI","amount":{"currency_code":"EUR","value":50}}]
+        });
+      },
+
+      onApprove: function(data, actions) {
+        return actions.order.capture().then(function(details) {
+          alert('Votre commande a été effectuée ! ' + details.payer.name.given_name + 'Vous receverez votre commande sous 14 jours ouvrés maximum.');
+        });
+      },
+
+      onError: function(err) {
+        console.log(err);
+      }
+    }).render('#paypal-button-container');
+  }
+  initPayPalButton();
+</script>
+
+
+<div class="greyblock"></div>
+<div class="ligne"></div>
+<div class="ligne-mid"></div>
+<h1 class="price">49.99€</h1>
+<h1 class="desc-produit">Acheter Box X96mini </br>Android 4K</h1>
+<p class="sous-desc">Livraison Rapide & Gratuite</p>
+<p class="free-livraison">Livraison gratuite</p>
+<p class="dispo">Disponibilité : </p>
+<p class="EnStock">En Stock</p>
+<p class="txt-stockage">Stockage</p>
+<img class="imgBOX" src="img/payIPTV.png">
+<img class="box" src="img/box.png">
+
+<div class="anim-contenu-stockage">
+    <div class="bloc-stockage"></div>
+    <p class="GB">16GB</p>
+    <p class="price-block">49.99€</p>
+</div>
+
+
+</body>
+
+<footer>
+  <p class="txt-copyright">Copyright © 2020 Roi IPTV Inc. Tous droits réservés.</p>
+  <div class="blocfoot"></div>
+  <p class="bas-page">.</p>
+</footer>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <meta charset="utf-8">
+      <title>Roi IPTV</title>
+
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/mobile.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <meta name="theme-color" content="#fafafa">
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="navbar"></div>
+      <img class="couronne" src="img/couronne.png" alt="logo couronne"/>
+      <img class="menuiptv" src="img/menuiptv.jpg" alt="menu iptv"/>
+      <img class="logoiptv" src="img/iptvlogo.png" alt="logo iptv"/>
+
+      <a class="home" href="index.html">Home</a>
+      <a class="about" href="">About us</a>
+      <a class="tuto" href="">Tutorials</a>;
+
+
+    </header>
+
+    <main>
+      <p class="titremagique">Simplement magique</br> L'intégralité de la TV sans se ruiner !</p>
+      <ul>
+        <li><a href="#first-sec" class="txt-product-scroll">x96 mini</a></li>
+      </ul>
+
+
+
+      <div id="blackblock">
+        <p id="first-sec">FirstSec</p>
+        <img src="img/commandex96.png" class="commandex96img">
+        <img src="img/x96box.png" class="boxx96">
+        <p class="txt-product">x96 mini</p>
+        <a href="#second-sec" class="learn-more">En savoir plus ></a>
+        <a href="payment.html" class="acheter">Acheter ></a>
+        <div class="whiteblock">
+          <p id="second-sec">SecondSec</p>
+          <img class="poele" src="img/poele.png" alt="logo poele">
+          <img class="youtube" src="img/youtube.png" alt="logo youtube">
+          <img class="spotify" src="img/spotify.png" alt="logo spotify">
+          <img class="netflix" src="img/netflix.png" alt="logo netflix">
+          <p class="car-produit">Caractèristiques produit</p>
+
+          <p class="quatrek"><img class="check" src="img/check.png" alt="logo check">4k compatible</p>
+
+
+          <p class="vod"><img class="check2" src="img/check.png" alt="logo check2">VOD et Séries illimitées</p>
+
+
+          <p class="chaines"><img class="check3" src="img/check.png" alt="logo check3">Toutes les chaînes mondiales en HD</p>
+
+
+        </div>
+      </div>
+
+
+      <img src="img/x96img.png" class="x96img">
+
+
+
+      <img class="rocket" src="img/rocket.png" alt="rocket image">
+
+      <img class="moon" src="img/moon.png" alt="moon image">
+
+
+
+
+    </main>
+
+    <footer>
+      <p class="txt-copyright">Copyright © 2020 Roi IPTV Inc. Tous droits réservés.</p>
+      <div class="blocfoot"></div>
+      <p class="bas-page">.</p>
+    </footer>
+
+  <script>
+    myID = document.getElementById("whiteblock");
+
+    var myScrollFunc = function() {
+      var y = window.scrollY;
+      if (y >= 800) {
+        myID.className = "whiteblock show"
+      } else {
+        myID.className = "whiteblock hide"
+      }
+    };
+
+    window.addEventListener("scroll", myScrollFunc);
+  </script>
+
+
+  </body>
+
+</html>
