@@ -26,7 +26,7 @@
     background-color: black;
     top: 0%;
     width: 100%;
-    height: 7%;
+    height: 55px;
     z-index: 3;
   }
 
@@ -34,7 +34,7 @@
   .menuiptv {
     position: absolute;
     top: 0%;
-    height: 22%;
+    height: 155px;
     width: 100%;
   }
 
@@ -51,8 +51,8 @@
 
   .logoiptv {
     position: absolute;
-    left: 50%;
-    top: 10.5%;
+    left: 20%;
+    top: 33%;
     z-index: 4;
     height: 75px;
     width: 70px;
@@ -116,23 +116,25 @@
     font-family: "Avenir";
     font-weight: Roman;
     text-decoration: none;
-    top: 17%;
-    left: 50.7%;
+    top: 60%;
+    left: 30%;
     z-index: 5;
 
   }
 
   .txt-product-scroll:hover {
-    position: absolute;
-    color: dodgerblue;
-    font-size: 13px;
-    font-family: "Avenir";
-    font-weight: Roman;
-    text-decoration: none;
-    top: 17%;
-    left: 50.7%;
-    z-index: 5;
 
+    color: dodgerblue;
+
+  }
+
+  .container-menu{
+    position: absolute;
+    top:0%;
+    left:49%;
+    height:200px;
+    width:100px;
+    z-index: 5;
   }
 
   #first-sec {
@@ -153,8 +155,8 @@
     font-family: "Avenir";
     font-weight: Roman;
     text-decoration: none;
-    top: 2%;
-    left: 40%;
+    top: 10%;
+    left: -200%;
     z-index: 5;
 
   }
@@ -166,8 +168,8 @@
     font-family: "Avenir";
     font-weight: Roman;
     text-decoration: none;
-    top: 2%;
-    left: 50%;
+    top: 10%;
+    left: 20%;
     z-index: 5;
 
   }
@@ -179,8 +181,8 @@
     font-family: "Avenir";
     font-weight: Roman;
     text-decoration: none;
-    top: 2%;
-    left: 60%;
+    top: 10%;
+    left: 200%;
     z-index: 5;
 
   }
