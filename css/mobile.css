@@ -431,7 +431,7 @@
 
 
 /* Iphone X */
-@media screen and (min-height: 812px) and (max-height: 900px){
+@media screen and (min-height: 812px) and (max-height: 820px){
 
   .container-menu{
     top:-0.45%;
@@ -644,9 +644,6 @@
 /* Laptop */
 
 @media screen and (min-width: 700px) and (max-width: 1200px){
-
-
-
 
 
   .titremagique{
