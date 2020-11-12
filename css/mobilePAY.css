@@ -2,6 +2,18 @@
 
 @media screen and (max-width : 375px) {
 
+  .home {
+    left:28%;
+  }
+
+  .about {
+    left:45%;
+  }
+
+  .tuto{
+    left:68%;
+  }
+
   .navbar{
     height:10%;
   }
@@ -20,7 +32,7 @@
   }
 
   .imgBOX{
-    top:90%;
+    top:77%;
     left:-10%;
     width:295px;
     height: 190px;
@@ -105,34 +117,8 @@
     left:9%;
   }
 
-  .price-block{
-    top:40.4%;
-    left:50%;
-  }
-
   .greyblock{
     top:57%;
-  }
-
-  .dispo{
-    top:58%;
-    left:23%;
-  }
-
-  .EnStock{
-    top:58%;
-    left:59%;
-  }
-
-  .price{
-    top:67%;
-    left:47%;
-  }
-
-  .ligne{
-    top:72%;
-    left:47%;
-    width:186px;
   }
 
   .ligne-mid{
@@ -140,15 +126,6 @@
     width:100%;
   }
 
-  .box{
-    top:96%;
-    left:57.7%;
-  }
-
-  .free-livraison{
-    top:95%;
-    left:69%;
-  }
 
   @keyframes anim-freelivraison {
     0% {
@@ -164,9 +141,104 @@
       top: 23%;
     }
 
+
   }
 
+  .price-block{
+    top:0%;
+  }
 
+  .dispo{
+    left:19%;
+  }
+
+  .free-livraison{
+    left:68%;
+  }
+
+  .box{
+    left:56%;
+  }
+
+  .price {
+    top: 24%;
+    left: 64%;
+    font-size: 40px;
+  }
+
+  .ligne {
+    top: 27%;
+    left: 64%;
+    height: 1.5px;
+    width: 134px;
+  }
+
+  .witb {
+    position: absolute;
+    top: 20px;
+    left: 7%;
+    font-family: Avenir;
+    font-size: 40px;
+  }
+
+  .fond-desc {
+    top:260px;
+    left:0%;
+    height: 400px;
+    width: 100%;
+  }
+
+  .x96-img {
+    height: 100px;
+    width: 100px;
+    top:-120px;
+    left:-35%;
+  }
+
+  .commande-img{
+    height: 150px;
+    width: 60px;
+    top:-140px;
+    left:20%;
+  }
+
+  .hdmi-img{
+    height: 175px;
+    width: 105px;
+    top:-180px;
+    left:-10%;
+  }
+
+  .alim-img{
+    height: 175px;
+    width: 161px;
+    top:-180px;
+    left: 0%;
+  }
+
+  .desc-box{
+    top:30%;
+    left:17%;
+    font-size: 17px;
+  }
+
+  .desc-commande{
+    top:30%;
+    left:60%;
+    font-size: 17px;
+  }
+
+  .desc-hdmi{
+    top:80%;
+    left:12%;
+    font-size: 17px;
+  }
+
+  .desc-alim{
+    top:80%;
+    left:53%;
+    font-size: 17px;
+  }
 
 }
 
@@ -513,41 +585,13 @@
     top:57%;
   }
 
-  .dispo{
-    top:58%;
-    left:23%;
-  }
-
-  .EnStock{
-    top:58%;
-    left:59%;
-  }
-
-  .price{
-    top:67%;
-    left:50%;
-  }
-
-  .ligne{
-    top:72%;
-    left:50%;
-    width:186px;
-  }
 
   .ligne-mid{
     left:0%;
     width:100%;
   }
 
-  .box{
-    top:96%;
-    left:57.7%;
-  }
 
-  .free-livraison{
-    top:95%;
-    left:69%;
-  }
 
   @keyframes anim-freelivraison {
     0% {
@@ -564,6 +608,109 @@
     }
 
   }
+
+  .imgBOX{
+    top:77%;
+    left:-5%;
+  }
+
+  .price-block{
+    top:0%;
+    left:60%;
+  }
+
+  .dispo{
+    left:19%;
+  }
+
+  .free-livraison{
+    left:68%;
+  }
+
+  .box{
+    left:56%;
+  }
+
+  .price {
+    top: 24%;
+    left: 64%;
+    font-size: 40px;
+  }
+
+  .ligne {
+    top: 27%;
+    left: 64%;
+    height: 1.5px;
+    width: 134px;
+  }
+
+  .witb {
+    position: absolute;
+    top: 20px;
+    left: 7%;
+    font-family: Avenir;
+    font-size: 40px;
+  }
+
+  .fond-desc {
+    top:260px;
+    left:0%;
+    height: 400px;
+    width: 100%;
+  }
+
+  .x96-img {
+    height: 100px;
+    width: 100px;
+    top:-120px;
+    left:-35%;
+  }
+
+  .commande-img{
+    height: 150px;
+    width: 60px;
+    top:-140px;
+    left:20%;
+  }
+
+  .hdmi-img{
+    height: 175px;
+    width: 105px;
+    top:-180px;
+    left:-10%;
+  }
+
+  .alim-img{
+    height: 175px;
+    width: 161px;
+    top:-180px;
+    left: 0%;
+  }
+
+  .desc-box{
+    top:30%;
+    left:17%;
+    font-size: 17px;
+  }
+
+  .desc-commande{
+    top:30%;
+    left:60%;
+    font-size: 17px;
+  }
+
+  .desc-hdmi{
+    top:80%;
+    left:12%;
+    font-size: 17px;
+  }
+
+  .desc-alim{
+    top:80%;
+    left:53%;
+    font-size: 17px;
+  }
+
 
 
 }
@@ -602,9 +749,6 @@
     height: 190px;
   }
 
-  .free-livraison{
-    top:89%;
-  }
 
   .box{
     top:90%;
