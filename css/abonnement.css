@@ -1,0 +1,286 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("../fonts/SF-Pro-Display-Regular.otf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir";
+    src: url("../fonts/Avenir.ttc");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/roboto/Roboto-Regular.ttf");
+    font-style: normal;
+}
+
+
+html {
+    background-color: #191919;
+    font-size: 1em;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+
+.navbar {
+    position: absolute;
+    background-color: black;
+    margin-top: 0px;
+    margin-left:0px;
+    width: 100%;
+    height: 7%;
+    z-index: 3;
+}
+
+
+.couronne {
+    position: absolute;
+    top: 1.3%;
+    left: 8%;
+    z-index: 4;
+    height: 31px;
+    width: 35px;
+    animation-name: rotacrn;
+    animation-duration: 3s;
+}
+
+
+#whiteblock {
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    z-index: 4;
+}
+
+
+#first-sec {
+    visibility: hidden;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    font-family: "SF Pro Display";
+    top: 60%;
+    left: 43%;
+    z-index: 5;
+
+}
+
+.home {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: "Avenir";
+    font-weight: Roman;
+    text-decoration: none;
+    top: 2%;
+    left: 40%;
+    z-index: 5;
+
+}
+
+.about {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: "Avenir";
+    font-weight: Roman;
+    text-decoration: none;
+    top: 2%;
+    left: 50%;
+    z-index: 5;
+
+}
+
+.tuto {
+    position: absolute;
+    color: white;
+    font-size: 16px;
+    font-family: "Avenir";
+    font-weight: Roman;
+    text-decoration: none;
+    top: 2%;
+    left: 60%;
+    z-index: 5;
+
+}
+
+
+.txt-copyright {
+    position: absolute;
+    color: #7a7575;
+    font-family: "SF Pro Display";
+    font-size: 12px;
+    top: 384%;
+    left: 20%;
+    z-index: 7;
+}
+
+.car-produit {
+    position: absolute;
+    color: black;
+    font-family: "SF Pro Display";
+    font-size: 60px;
+    top: 160%;
+    left: 30%;
+    z-index: 8;
+}
+
+@keyframes rotacrn {
+    0% {
+        position: absolute;
+    }
+    100% {
+        position: absolute;
+        transform: rotate(360deg)
+    }
+
+}
+
+.blocfoot {
+    position: absolute;
+    background-color: #292929;
+    top: 380%;
+    left:0%;
+    width: 100%;
+    height: 0.2%;
+    z-index: 3;
+}
+
+.bas-page {
+    position: absolute;
+    color: #7a7575;
+    font-family: "SF Pro Display";
+    font-size: 12px;
+    top: 390%;
+    left: 20%;
+    z-index: 7;
+}
+
+.rocket {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    z-index: 2;
+}
+
+
+
+.moon {
+    position: absolute;
+    top: 270%;
+    left:-20%;
+    transform: rotate(340deg);
+    z-index: 2;
+}
+
+
+#paypal-button-container{
+    position: absolute;
+    top:90%;
+    left:50%;
+    width:250px;
+    background-color:darkgrey;
+    background-position-y: 600px;
+
+}
+
+.desc-produit {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #e9e9e9;
+    animation-name: anim-descprod;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    font-family: "Avenir";
+    font-size:40px;
+    z-index: 5;
+}
+
+@keyframes anim-descprod {
+    0% {
+        visibility: hidden;
+        top: 36%;
+    }
+    50% {
+        visibility: hidden;
+        top: 36%;
+    }
+    100% {
+        visibility: visible;
+        top: 25%;
+    }
+
+}
+
+
+.bloc-1{
+    position: absolute;
+    top:50%;
+    left:20%;
+    background-color: #e9e9e9;
+    border-radius: 25px;
+    height:46.5%;
+    width:16%;
+    z-index: 3;
+}
+
+.bloc-1:hover{
+    top:49%;
+    left:19%;
+    height:48.5%;
+    width:18%;
+    transition-duration: 0.5s;
+}
+
+.bloc-2{
+    position: absolute;
+    top:50%;
+    left:40%;
+    background-color: #e9e9e9;
+    border-radius: 25px;
+    height:46.5%;
+    width:16%;
+    z-index: 3;
+}
+
+.bloc-2:hover{
+    top:49%;
+    left:39%;
+    height:48.5%;
+    width:18%;
+    transition-duration: 0.5s;
+}
+
+.month{
+    position: relative;
+    top:70%;
+    text-align: center;
+    font-family: "Avenir";
+
+}
+
+.year{
+    position: relative;
+    top:70%;
+    text-align: center;
+    font-family: "Avenir";
+
+}
+
+
+
+
+
