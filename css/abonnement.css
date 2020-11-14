@@ -188,14 +188,15 @@ body{
 
 
 #paypal-button-container{
-    position: absolute;
-    top:90%;
-    left:50%;
+    position: relative;
+    top:10%;
+    left:58.3%;
     width:250px;
     background-color:darkgrey;
     background-position-y: 600px;
 
 }
+
 
 .desc-produit {
     position: relative;
@@ -213,15 +214,15 @@ body{
 @keyframes anim-descprod {
     0% {
         visibility: hidden;
-        top: 36%;
+        top: 46%;
     }
     50% {
         visibility: hidden;
-        top: 36%;
+        top: 46%;
     }
     100% {
         visibility: visible;
-        top: 25%;
+        top: 35%;
     }
 
 }
@@ -230,7 +231,7 @@ body{
     position: relative;
     height:50px;
     width:50px;
-    top:35%;
+    top:45%;
     left:50%;
     z-index: 4;
 }
@@ -275,7 +276,7 @@ body{
 
 .month{
     position: relative;
-    top:70%;
+    top:5%;
     text-align: center;
     font-family: "Avenir";
 
@@ -283,13 +284,146 @@ body{
 
 .year{
     position: relative;
-    top:70%;
+    top:5%;
     text-align: center;
     font-family: "Avenir";
 
 }
 
+.bouton-1{
+    position: relative;
+    top:63%;
+    margin: auto;
+    height:25px;
+    width: 77px;
+    border-radius: 30px;
+    background-color: black;
+}
+.choisir-1{
+    position:relative;
+    color:white;
+    left:15%;
+    text-decoration: none;
+    font-family: Avenir;
+}
 
+.bouton-2{
+    position: relative;
+    top:60%;
+    margin: auto;
+    height:25px;
+    width: 77px;
+    border-radius: 30px;
+    background-color: black;
+}
+.choisir-2{
+    position:relative;
+    color:white;
+    left:15%;
+    text-decoration: none;
+    font-family: Avenir;
+}
 
+.background-block{
+    position: relative;
+    top:0%;
+    width:100%;
+    opacity: 80%;
+}
 
+.sous-titre{
+    font-size: 20px;
+}
 
+.bande{
+    position: relative;
+    visibility: hidden;
+    top:100%;
+    height:90px;
+    width:100%;
+    background-color: darkgrey;
+}
+
+.canal{
+    position: relative;
+    visibility: visible;
+    height:200px;
+    width:16000px;
+    background-image: url("../img/canal.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin-left: 0%;
+    animation-name: slide;
+    animation-duration: 180s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes slide {
+    0%{margin-left: 0%;visibility: visible;}
+    100%{margin-left: -1000%;visibility: visible;}
+}
+
+#blocs-abo{
+    position: relative;
+    top:120%;
+    left:19%;
+    height:600px;
+    width:1200px;
+    background-color: white;
+    z-index:4;
+}
+
+.bloc-six{
+    position: relative;
+    top:0%;
+    left:0%;
+    height:600px;
+    width:600px;
+    background-color: dimgrey;
+    z-index:4;
+}
+
+.bloc-douze{
+    position: relative;
+    top:-103.5%;
+    left:50%;
+    height:600px;
+    width:600px;
+    background-color: lightgrey;
+    z-index:4;
+}
+
+.desc-six{
+    position: relative;
+    top:5%;
+    text-align: center;
+    color:white;
+    font-size: 60px;
+    font-family: "Avenir";
+}
+
+.desc-douze{
+    position: relative;
+    top:-11%;
+    text-align: center;
+    color:white;
+    font-size: 60px;
+    font-family: "Avenir";
+}
+
+.sous-desc-douze{
+    position: relative;
+    font-family: "Avenir";
+    top:40%;
+    font-size:20px;
+}
+
+.rupture{
+    position: relative;
+    top:25%;
+    transform: rotate(-20deg);
+    font-family: "SF Pro Text";
+    font-size: 60px;
+    color: red;
+}

@@ -3,11 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Roi IPTV</title>
+    <title>KingTV</title>
     <link rel="icon"  type="image/png"  href="img/couronne.png">
 
     <link rel="stylesheet" href="css/abonnement.css">
-    <link rel="stylesheet" href="css/">
+    <link rel="stylesheet" href="css/mobileABO.css">
     <link rel="stylesheet" href="css/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -31,15 +31,17 @@
 <body>
 
 <header>
-    <nav class="navbar"></nav>
+    <nav class="navbar">
+        <div class="bande">
+            <div class="canal"></div>
+        </div>
+    </nav>
+
     <img class="couronne" src="img/couronne.png" alt="logo couronne"/>
 
 
     <a class="home" href="index.html">Accueil</a>
-    <a class="tuto" href="">Tutoriels</a>
-    <a class="about" href="">A propos</a>
-
-
+    <a class="tuto" href="">Abonnement</a>
 
 </header>
 
@@ -54,8 +56,6 @@
 </main>
 
 
-<div id="paypal-button-container"></div>
-<div id="smart-button-container"></div>
 <div style="text-align: center;"></div>
 
 
@@ -96,15 +96,35 @@
 
 
 
-<h1 class="desc-produit">Rechargez votre abonnement</h1>
+<h1 class="desc-produit">Rechargez votre abonnement<p class="sous-titre">Vous possèdez notre box TV ?<br/>Il suffit de sélectionner un abonnement pour avoir accès à toutes les chaines mondiales en HD !</p></h1>
 
 <div class="blocs">
     <div class="bloc-1">
         <p class="month">Abonnement 6 mois</p>
+        <div class="bouton-1"><p><a class="choisir-1" href="#blocs-abo"">Choisir</a></p></div>
+        <img class="background-block" src="img/chaines.png" alt="background chaines">
     </div>
     <div class="bloc-2">
         <p class="year">Abonnement 12 mois</p>
+        <div class="bouton-2"><p><a class="choisir-2" href="#blocs-abo">Choisir</a></p></div>
+        <img class="background-block" src="img/series.png" alt="background series">
     </div>
+</div>
+
+<div id="blocs-abo">
+    <div class="bloc-six">
+        <h1 class="desc-six">Abonnement 6 mois</h1>
+        <h1 class="rupture">RUPTURE DE STOCK</h1>
+    </div>
+
+    <div class="bloc-douze">
+        <p class="sous-desc-douze">Accès à l'entièreté des chaînes mondiales<br/>+ compte Netflix offert !</p>
+            <h1 class="desc-douze">Abonnement 12 mois</h1>
+            <div id="paypal-button-container"></div>
+            <div id="smart-button-container"></div>
+
+    </div>
+
 </div>
 
 

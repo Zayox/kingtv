@@ -182,7 +182,7 @@ html {
 
 #paypal-button-container{
   position: absolute;
-  top:90%;
+  top:99%;
   left:50%;
   width:250px;
   background-color:darkgrey;
