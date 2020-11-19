@@ -6,14 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ea05968-e5fc-4e25-9799-e0f178e9a58f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/mobileABO.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/chaines.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/abonnement.html" beforeDir="false" afterPath="$PROJECT_DIR$/abonnement.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/abonnement.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/abonnement.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/payment.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/payment.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mobileABO.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mobileABO.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,9 @@
       <workItem from="1605008184870" duration="3720000" />
       <workItem from="1605094436802" duration="17577000" />
       <workItem from="1605258816163" duration="129000" />
-      <workItem from="1605268437912" duration="15065000" />
+      <workItem from="1605268437912" duration="19974000" />
+      <workItem from="1605572833822" duration="114000" />
+      <workItem from="1605621632873" duration="9689000" />
     </task>
     <servers />
   </component>

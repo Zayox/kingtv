@@ -2,6 +2,22 @@
 
 @media screen and (max-width : 375px) {
 
+    html {
+        background-color: #191919;
+        font-size: 1em;
+        line-height: 1.4;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .canal{
+        overflow-x: hidden;
+    }
+
     .navbar{
         height:10%;
     }
@@ -40,29 +56,303 @@
         top:400px;
         left:-300px;
     }
+
+    #blocs-abo{
+        top:150%;
+        width:100%;
+        left:0%;
+    }
+
+    .bloc-six{
+        width:100%;
+    }
+
+    .desc-six{
+        top:-5%;
+        font-size:30px;
+    }
+
+
+    .sous-desc-six{
+        position: relative;
+        font-family: "Avenir";
+        color:white;
+        top:25%;
+        font-size:19px;
+    }
+
+
+    .prix-six-1{
+        top:10%;
+        left:50%;
+        font-size:80px;
+    }
+
+    .prix-six-2{
+        top:-19%;
+        left:74%;
+        font-size:20px;
+    }
+
+    #paypal-button-container{
+        position: relative;
+        top:0%;
+        left:0%;
+        width:100%;
+        background-color:darkgrey;
+        background-position-y: 600px;
+    }
+
+
+    .bloc-douze{
+        top:140%;
+        left:0%;
+        width:100%;
+    }
+
+    .desc-douze{
+        top:-5%;
+        font-size:30px;
+    }
+
+
+    .sous-desc-douze{
+        position: relative;
+        font-family: "Avenir";
+        color:white;
+        top:25%;
+        font-size:19px;
+    }
+
+    #paypal-button-container2{
+        position: relative;
+        top:0%;
+        left:0%;
+        width:100%;
+        background-color:darkgrey;
+        background-position-y: 600px;
+    }
+
+    .txt-copyright {
+        top: 550%;
+    }
+
+    .blocfoot {
+        top: 546%;
+    }
+
+    .bas-page {
+        top: 555%;
+    }
+
+    .prix-douze-1{
+        top:10%;
+        left:50%;
+        font-size:80px;
+    }
+
+    .prix-douze-2{
+        top:-19%;
+        left:74%;
+        font-size:20px;
+    }
+
 }
 
 
 /* Iphone Plus */
 @media screen and (min-width: 411px) and (max-width: 699px){
 
+    html {
+        background-color: #191919;
+        font-size: 1em;
+        line-height: 1.4;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .canal{
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        height:10%;
+    }
+
     .container-menu{
-        top:-0.5%;
-        left:37%;
+        top:-0.9%;
+        left:34.5%;
     }
 
-    .home {
-        left:-15%;
+    .logoiptv{
+        top:40%;
+        left:40%;
     }
 
-    .about {
-        left:48.3%;
+    @keyframes anim-descprod {
+        0% {
+            visibility: hidden;
+            top: 51%;
+        }
+        50% {
+            visibility: hidden;
+            top: 51%;
+        }
+        100% {
+            visibility: visible;
+            top: 40%;
+        }
+
     }
 
-    .tuto{
-        left:130%;
+    .blocs{
+        left:100%;
+        background-color: red;
+        height: 200px;
+        width:200px;
     }
 
+    .bloc-2{
+        display: none;
+        top:400px;
+        left:-300px;
+    }
+
+    .bloc-2-mobile{
+        display: block;
+        position: absolute;
+        top:140%;
+        left:113.5px;
+        background-color: #e9e9e9;
+        border-radius: 25px;
+        height:320px;
+        width:220px;
+        z-index: 5;
+    }
+
+    #blocs-abo{
+        top:150%;
+        width:100%;
+        left:0%;
+    }
+
+    .bloc-1:hover{
+        position: absolute;
+        top:0%;
+        left:-300px;
+        background-color: #e9e9e9;
+        border-radius: 25px;
+        height:320px;
+        width:220px;
+        z-index: 3;
+    }
+
+    .bloc-six{
+        width:100%;
+    }
+
+    .desc-six{
+        top:-5%;
+        font-size:30px;
+    }
+
+
+    .sous-desc-six{
+        position: relative;
+        font-family: "Avenir";
+        color:white;
+        top:25%;
+        font-size:19px;
+    }
+
+
+    .prix-six-1{
+        top:10%;
+        left:50%;
+        font-size:80px;
+    }
+
+    .prix-six-2{
+        top:-19%;
+        left:74%;
+        font-size:20px;
+    }
+
+    #paypal-button-container{
+        position: relative;
+        top:0%;
+        left:0%;
+        width:100%;
+        background-color:darkgrey;
+        background-position-y: 600px;
+    }
+
+
+    .bloc-douze{
+        top:140%;
+        left:0%;
+        width:100%;
+    }
+
+    .desc-douze{
+        top:-5%;
+        font-size:30px;
+    }
+
+
+    .sous-desc-douze{
+        position: relative;
+        font-family: "Avenir";
+        color:white;
+        top:25%;
+        font-size:19px;
+    }
+
+    #paypal-button-container2{
+        position: relative;
+        top:0%;
+        left:0%;
+        width:100%;
+        background-color:darkgrey;
+        background-position-y: 600px;
+    }
+
+    .txt-copyright {
+        top: 550%;
+    }
+
+    .blocfoot {
+        top: 546%;
+    }
+
+    .bas-page {
+        top: 555%;
+    }
+
+    .prix-douze-1{
+        top:10%;
+        left:50%;
+        font-size:80px;
+    }
+
+    .prix-douze-2{
+        top:-19%;
+        left:74%;
+        font-size:20px;
+    }
+
+    #sec-2{
+        position:absolute;
+        top:2000px;
+        background-color: red;
+        height:50px;
+        width:50px;
+        z-index:4;
+    }
 }
 
 
@@ -87,15 +377,172 @@
 }
 
 
-/* Laptop */
+/* Tablette */
+@media screen and (min-width: 700px) and (max-width: 1300px){
 
-@media screen and (min-width: 700px) and (max-width: 1200px){
+    html {
+        background-color: #191919;
+        font-size: 1em;
+        line-height: 1.4;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .canal{
+        overflow-x: hidden;
+    }
+
+    .navbar{
+        height:10%;
+    }
+
+    .container-menu{
+        top:-0.9%;
+        left:34.5%;
+    }
+
+    .logoiptv{
+        top:40%;
+        left:40%;
+    }
+
+    @keyframes anim-descprod {
+        0% {
+            visibility: hidden;
+            top: 51%;
+        }
+        50% {
+            visibility: hidden;
+            top: 51%;
+        }
+        100% {
+            visibility: visible;
+            top: 40%;
+        }
+
+    }
 
 
+    #blocs-abo{
+        top:150%;
+        width:100%;
+        left:-10%;
+    }
 
+    .bloc-six{
+        width:100%;
+        left:-7%;
+    }
+
+    .desc-six{
+        top:-10%;
+        font-size:50px;
+    }
+
+
+    .sous-desc-six{
+        position: relative;
+        text-align: center;
+        font-family: "Avenir";
+        color:white;
+        top:25%;
+        font-size:28px;
+    }
+
+
+    .prix-six-1{
+        top:-5%;
+        left:50%;
+        font-size:100px;
+    }
+
+    .prix-six-2{
+        top:-45%;
+        left:59%;
+        font-size:50px;
+    }
+
+    #paypal-button-container{
+        position: relative;
+        top:-35.5%;
+        left:25%;
+        width:50%;
+        background-color:darkgrey;
+        background-position-y: 600px;
+    }
+
+
+    .bloc-douze{
+        top:140%;
+        left:-7%;
+        width:100%;
+    }
+
+    .desc-douze{
+        top:-10%;
+        font-size:50px;
+    }
+
+
+    .sous-desc-douze{
+        position: relative;
+        text-align: center;
+        font-family: "Avenir";
+        color:white;
+        top:25%;
+        font-size:28px;
+    }
+
+    .txt-copyright {
+        top: 550%;
+    }
+
+    .blocfoot {
+        top: 546%;
+    }
+
+    .bas-page {
+        top: 555%;
+    }
+
+    .prix-douze-1{
+        top:-5%;
+        left:50%;
+        font-size:100px;
+    }
+
+    .prix-douze-2{
+        top:-45%;
+        left:59%;
+        font-size:50px;
+    }
+
+    #paypal-button-container2{
+        position: relative;
+        top:-35.5%;
+        left:25%;
+        width:50%;
+        background-color:darkgrey;
+        background-position-y: 600px;
+    }
 
 }
 
+
+/* Laptop */
+
+@media screen and (min-width: 700px) and (max-width: 1600px){
+
+#blocs-abo{
+    left:7%;
+}
+
+
+}
 
 
 /* responsive pur */

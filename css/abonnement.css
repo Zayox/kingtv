@@ -31,6 +31,8 @@ body{
     margin-top:0;
     height:100%;
     width:100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -125,7 +127,7 @@ body{
     font-size: 12px;
     top: 384%;
     left: 20%;
-    z-index: 7;
+    z-index: 2;
 }
 
 .car-produit {
@@ -161,6 +163,7 @@ body{
 
 .bas-page {
     position: absolute;
+    visibility: hidden;
     color: #7a7575;
     font-family: "SF Pro Display";
     font-size: 12px;
@@ -189,8 +192,18 @@ body{
 
 #paypal-button-container{
     position: relative;
-    top:10%;
-    left:58.3%;
+    top:-80%;
+    left:58.5%;
+    width:250px;
+    background-color:darkgrey;
+    background-position-y: 600px;
+
+}
+
+#paypal-button-container2{
+    position: relative;
+    top:-80%;
+    left:58.5%;
     width:250px;
     background-color:darkgrey;
     background-position-y: 600px;
@@ -266,6 +279,10 @@ body{
     z-index: 3;
 }
 
+.bloc-2-mobile{
+    display: none;
+}
+
 .bloc-2:hover{
     top:-40%;
     left:90px;
@@ -288,6 +305,10 @@ body{
     text-align: center;
     font-family: "Avenir";
 
+}
+
+#sec-2{
+    visibility: hidden;
 }
 
 .bouton-1{
@@ -386,7 +407,7 @@ body{
 
 .bloc-douze{
     position: relative;
-    top:-103.5%;
+    top:-105%;
     left:50%;
     height:600px;
     width:600px;
@@ -396,16 +417,61 @@ body{
 
 .desc-six{
     position: relative;
-    top:5%;
+    top:-15%;
     text-align: center;
     color:white;
     font-size: 60px;
     font-family: "Avenir";
 }
 
+.sous-desc-six{
+    position: relative;
+    font-family: "Avenir";
+    color:white;
+    left:3%;
+    top:28%;
+    font-size:30px;
+}
+
+.prix-six-1{
+    position: relative;
+    font-family: "Roboto";
+    color:white;
+    top:-10%;
+    left:4%;
+    font-size:140px;
+}
+
+.prix-six-2{
+    position: relative;
+    font-family: "Roboto";
+    color:white;
+    top:-63%;
+    left:31%;
+    font-size:50px;
+}
+
+.prix-douze-1{
+    position: relative;
+    font-family: "Roboto";
+    color:white;
+    top:-10%;
+    left:4%;
+    font-size:140px;
+}
+
+.prix-douze-2{
+    position: relative;
+    font-family: "Roboto";
+    color:white;
+    top:-63%;
+    left:31%;
+    font-size:50px;
+}
+
 .desc-douze{
     position: relative;
-    top:-11%;
+    top:-15%;
     text-align: center;
     color:white;
     font-size: 60px;
@@ -415,15 +481,9 @@ body{
 .sous-desc-douze{
     position: relative;
     font-family: "Avenir";
-    top:40%;
-    font-size:20px;
+    top:28%;
+    left:3%;
+    font-size:30px;
 }
 
-.rupture{
-    position: relative;
-    top:25%;
-    transform: rotate(-20deg);
-    font-family: "SF Pro Text";
-    font-size: 60px;
-    color: red;
-}
+
