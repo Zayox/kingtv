@@ -368,7 +368,7 @@ body{
 .canal{
     position: relative;
     visibility: visible;
-    height:200px;
+    height:150px;
     width:16000px;
     background-image: url("../img/canal.jpg");
     background-repeat: repeat-x;

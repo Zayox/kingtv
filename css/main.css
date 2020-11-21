@@ -303,6 +303,7 @@
   }
 
   .bas-page {
+    visibility: hidden;
     position: absolute;
     color: #7a7575;
     font-family: "SF Pro Display";

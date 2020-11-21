@@ -25,6 +25,15 @@ html {
   overflow-x: hidden;
 }
 
+body{
+  position: absolute;
+  margin-left:0;
+  margin-top:0;
+  height:100%;
+  width:100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
 .navbar {
   position: absolute;
   background-color: black;
@@ -153,6 +162,7 @@ html {
 }
 
 .bas-page {
+  visibility: hidden;
   position: absolute;
   color: #7a7575;
   font-family: "SF Pro Display";
@@ -504,9 +514,15 @@ html {
   z-index: 8;
 }
 
+.offert{
+  position: relative;
+  top:9%;
+  left:5%;
+  font-family: Avenir;
+}
 
-
-
+/* background chaine marche pas sur safari car pas compatible avec "aperçu" mac / iphone,
+il faut changer le format */
 
 
 

@@ -31,7 +31,7 @@
   }
 
   .menuiptv{
-    height:23%;
+    height:30%;
   }
 
   .home {
@@ -59,14 +59,14 @@
   }
 
   @keyframes anim-magique {
-    0%{visibility: hidden;top:36%;}
-    50%{visibility: hidden;top:36%;}
-    100%{visibility: visible;top:20%;}
+    0%{visibility: hidden;top:39%;}
+    50%{visibility: hidden;top:39%;}
+    100%{visibility: visible;top:28%;}
 
   }
 
   #blackblock{
-    top:53%;
+    top:68%;
     left:4.5%;
     height: 500px;
     width: 340px;
@@ -472,9 +472,9 @@
   }
 
   @keyframes anim-magique {
-    0%{visibility: hidden;top:36%;}
-    50%{visibility: hidden;top:36%;}
-    100%{visibility: visible;top:20%;}
+    0%{visibility: hidden;top:39%;}
+    50%{visibility: hidden;top:39%;}
+    100%{visibility: visible;top:28%;}
 
   }
 
